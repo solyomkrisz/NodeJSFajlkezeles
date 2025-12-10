@@ -11,7 +11,7 @@ const data = fs.readFileSync(path.join(__dirname, '../files/szamok.txt'), 'utf-8
 const numbers = data
     .split(',')
     .filter((i) => i)
-    .map((i) => parseInt(i));
+    .map((i) => parseInt(i.trim()));
 
 const storage = multer.diskStorage({
     destination: (request, file, callback) => {
@@ -128,16 +128,17 @@ router.get('/rendezett', async (request, response) => {
     try {
         let sorted = [...numbers];
 
-        for (let i = 0; i < sorted.length; i++) {
-            let min = i;
+        for (let i = 0; i < sorted.length - 1; i++) {
+            let min_i = i;
             for (let j = i + 1; j < sorted.length; j++) {
-                sorted[j] < sorted[min] && (min = j);
+                sorted[j] < sorted[min_i] && (min_i = j);
             }
-            const temp = sorted[i];
-            sorted[i] = sorted[min];
-            sorted[min] = temp;
-            // sorted[i] += sorted[min];
-            // sorted[i] =
+
+            if (i === min_i) continue;
+            
+            sorted[i] = sorted[i] + sorted[min_i];
+            sorted[min_i] = sorted[i] - sorted[min_i];
+            sorted[i] = sorted[i] - sorted[min_i];
         }
 
         response.status(200).json({ result: sorted });
