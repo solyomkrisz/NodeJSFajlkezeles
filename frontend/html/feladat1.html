@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Főoldal</title>
+        <title>1. feladat</title>
         <!--!Bootstrap-->
         <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
         <!--?Popper: dropdowns, popovers, tooltips-->
@@ -16,15 +16,30 @@
     </head>
     <body>
         <div class="container-fluid">
-            <div class="row text-center">
-                <h1 class="display-1">Feladatok:</h1>
+            <div class="row mb-3">
+                <h1 class="display-4 shadow-sm text-start">1. feladat</h1>
             </div>
             <div class="row">
                 <div class="col-12">
-                    <a href="/elsoFeladat">1. feladat</a>
-                    <a href="/masodikFeladat">2. feladat</a>
+                    <h1 class="display-6 text-center">Eredmény: <span id="result"></span></h1>
                 </div>
             </div>
         </div>
+
+        <script>
+            async function fetchText() {
+                const response = await fetch('/api/readfile').then(async (response) => {
+                    if (!response.ok) {
+                        throw new Error(`Error ${response.status}: ${response.statusText}`);
+                    }
+
+                    return await response.json();
+                });
+
+                document.querySelector('#result').textContent = response.text;
+            }
+
+            document.addEventListener('DOMContentLoaded', fetchText);
+        </script>
     </body>
 </html>

@@ -2,6 +2,17 @@
 const express = require('express'); //?npm install express
 const session = require('express-session'); //?npm install express-session
 const path = require('path');
+const fs = require('fs');
+
+//?2. feladat
+fs.writeFileSync(path.join(__dirname, './files/szamok.txt'), '');
+for (let i = 0; i < 20; i++) {
+    fs.appendFileSync(
+        path.join(__dirname, './files/szamok.txt'),
+        `${Math.floor(Math.random() * (50 - 1) + 1)},`,
+        'utf-8'
+    );
+}
 
 //!Beállítások
 const app = express();
@@ -26,6 +37,16 @@ app.use(
 //?Főoldal:
 router.get('/', (request, response) => {
     response.sendFile(path.join(__dirname, '../frontend/html/index.html'));
+});
+
+//?1. feladat:
+router.get('/elsoFeladat', (request, response) => {
+    response.sendFile(path.join(__dirname, '../frontend/html/feladat1.html'));
+});
+
+//?2. feladat:
+router.get('/masodikFeladat', (request, response) => {
+    response.sendFile(path.join(__dirname, '../frontend/html/feladat2.html'));
 });
 
 //!API endpoints

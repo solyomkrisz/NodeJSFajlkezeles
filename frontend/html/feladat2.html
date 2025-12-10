@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>2. feladat</title>
+        <!--!Bootstrap-->
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+        <!--?Popper: dropdowns, popovers, tooltips-->
+        <script src="../bootstrap/js/popper.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+        <!--!CSS-->
+        <link rel="stylesheet" href="../css/index.css" />
+        <!--!JavaScript-->
+        <script src="../javascript/index.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row mb-3">
+                <h1 class="display-4 shadow-sm text-start">2. feladat</h1>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center" id="all"></p>
+                    <ul>
+                        <li>Összegük: <span id="sum"></span></li>
+                        <li>Első és utolsó szorzata: <span id="prod"></span></li>
+                        <li>Átlaguk: <span id="avg"></span></li>
+                        <li>Legkisebb: <span id="min"></span></li>
+                        <li>Legnagyobb: <span id="max"></span></li>
+                    </ul>
+                    <p class="text-center" id="sorted"></p>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            async function requestData(url) {
+                return await fetch(url).then(async (response) => {
+                    if (!response.ok) {
+                        throw new Error(`Error ${response.status}: ${response.statusText}`);
+                    }
+
+                    return await response.json();
+                });
+            }
+
+            async function show(selector, sourceUrl) {
+                document.querySelector(selector).textContent = (
+                    await requestData(sourceUrl)
+                ).result;
+            }
+
+            document.addEventListener('DOMContentLoaded', async () => {
+                show('#all', '/api/beolvasas');
+                show('#sum', '/api/osszeg');
+                show('#prod', '/api/szorzat');
+                show('#avg', '/api/atlag');
+                show('#min', '/api/min');
+                show('#max', '/api/max');
+                show('#sorted', '/api/rendezett');
+            });
+        </script>
+    </body>
+</html>
