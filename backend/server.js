@@ -49,6 +49,16 @@ router.get('/masodikFeladat', (request, response) => {
     response.sendFile(path.join(__dirname, '../frontend/html/feladat2.html'));
 });
 
+//?3. feladat:
+router.get('/harmadikFeladat', (request, response) => {
+    response.sendFile(path.join(__dirname, '../frontend/html/feladat3.html'));
+});
+
+//?4. feladat:
+router.get('/negyedikFeladat', (request, response) => {
+    response.sendFile(path.join(__dirname, '../frontend/html/feladat4.html'));
+});
+
 //!API endpoints
 app.use('/', router);
 const endpoints = require('./api/api.js');

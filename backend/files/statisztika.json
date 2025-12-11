@@ -1,0 +1,535 @@
+{
+"telepules":[
+ {
+  "telepaz": "33367",
+  "megnevezes": "Szeged",
+  "rang": "megyeszékhely, megyei jogú város",
+  "kisterseg": "Szegedi",
+  "terulet": "28084",
+  "nepesseg": "162586",
+  "lakas": "71711"
+ },
+ {
+  "telepaz": "8314",
+  "megnevezes": "Hódmezővásárhely",
+  "rang": "megyei jogú város",
+  "kisterseg": "Hódmezővásárhelyi",
+  "terulet": "48322",
+  "nepesseg": "48013",
+  "lakas": "19378"
+ },
+ {
+  "telepaz": "5111",
+  "megnevezes": "Csongrád",
+  "rang": "város",
+  "kisterseg": "Csongrádi",
+  "terulet": "17389",
+  "nepesseg": "18628",
+  "lakas": "8433"
+ },
+ {
+  "telepaz": "31024",
+  "megnevezes": "Kistelek",
+  "rang": "város",
+  "kisterseg": "Kisteleki",
+  "terulet": "6919",
+  "nepesseg": "7596",
+  "lakas": "3351"
+ },
+ {
+  "telepaz": "7357",
+  "megnevezes": "Makó",
+  "rang": "város",
+  "kisterseg": "Makói",
+  "terulet": "22923",
+  "nepesseg": "25583",
+  "lakas": "11324"
+ },
+ {
+  "telepaz": "21555",
+  "megnevezes": "Mindszent",
+  "rang": "város",
+  "kisterseg": "Hódmezővásárhelyi",
+  "terulet": "5939",
+  "nepesseg": "7337",
+  "lakas": "3162"
+ },
+ {
+  "telepaz": "4349",
+  "megnevezes": "Mórahalom",
+  "rang": "város",
+  "kisterseg": "Mórahalomi",
+  "terulet": "8314",
+  "nepesseg": "5745",
+  "lakas": "2415"
+ },
+ {
+  "telepaz": "14456",
+  "megnevezes": "Szentes",
+  "rang": "város",
+  "kisterseg": "Szentesi",
+  "terulet": "35325",
+  "nepesseg": "30650",
+  "lakas": "12655"
+ },
+ {
+  "telepaz": "34245",
+  "megnevezes": "Algyő",
+  "rang": "nagyközség",
+  "kisterseg": "Szegedi",
+  "terulet": "7577",
+  "nepesseg": "5411",
+  "lakas": "1950"
+ },
+ {
+  "telepaz": "5379",
+  "megnevezes": "Csanádpalota",
+  "rang": "nagyközség",
+  "kisterseg": "Makói",
+  "terulet": "7776",
+  "nepesseg": "3239",
+  "lakas": "1679"
+ },
+ {
+  "telepaz": "17233",
+  "megnevezes": "Nagymágocs",
+  "rang": "nagyközség",
+  "kisterseg": "Szentesi",
+  "terulet": "7508",
+  "nepesseg": "3425",
+  "lakas": "1250"
+ },
+ {
+  "telepaz": "31705",
+  "megnevezes": "Sándorfalva",
+  "rang": "nagyközség",
+  "kisterseg": "Szegedi",
+  "terulet": "5577",
+  "nepesseg": "8017",
+  "lakas": "2994"
+ },
+ {
+  "telepaz": "32489",
+  "megnevezes": "Szegvár",
+  "rang": "nagyközség",
+  "kisterseg": "Szentesi",
+  "terulet": "8622",
+  "nepesseg": "4899",
+  "lakas": "2078"
+ },
+ {
+  "telepaz": "16197",
+  "megnevezes": "Ambrózfalva",
+  "rang": "község",
+  "kisterseg": "Makói",
+  "terulet": "1122",
+  "nepesseg": "565",
+  "lakas": "246"
+ },
+ {
+  "telepaz": "14252",
+  "megnevezes": "Apátfalva",
+  "rang": "község",
+  "kisterseg": "Makói",
+  "terulet": "5377",
+  "nepesseg": "3288",
+  "lakas": "1595"
+ },
+ {
+  "telepaz": "19062",
+  "megnevezes": "Árpádhalom",
+  "rang": "község",
+  "kisterseg": "Szentesi",
+  "terulet": "4520",
+  "nepesseg": "600",
+  "lakas": "258"
+ },
+ {
+  "telepaz": "10339",
+  "megnevezes": "Ásotthalom",
+  "rang": "község",
+  "kisterseg": "Mórahalomi",
+  "terulet": "12254",
+  "nepesseg": "4211",
+  "lakas": "1968"
+ },
+ {
+  "telepaz": "29106",
+  "megnevezes": "Baks",
+  "rang": "község",
+  "kisterseg": "Kisteleki",
+  "terulet": "6192",
+  "nepesseg": "2289",
+  "lakas": "877"
+ },
+ {
+  "telepaz": "23676",
+  "megnevezes": "Balástya",
+  "rang": "község",
+  "kisterseg": "Kisteleki",
+  "terulet": "11000",
+  "nepesseg": "3544",
+  "lakas": "1920"
+ },
+ {
+  "telepaz": "8192",
+  "megnevezes": "Bordány",
+  "rang": "község",
+  "kisterseg": "Mórahalomi",
+  "terulet": "3648",
+  "nepesseg": "3162",
+  "lakas": "1362"
+ },
+ {
+  "telepaz": "2121",
+  "megnevezes": "Csanádalberti",
+  "rang": "község",
+  "kisterseg": "Makói",
+  "terulet": "1532",
+  "nepesseg": "500",
+  "lakas": "261"
+ },
+ {
+  "telepaz": "22293",
+  "megnevezes": "Csanytelek",
+  "rang": "község",
+  "kisterseg": "Csongrádi",
+  "terulet": "3471",
+  "nepesseg": "2950",
+  "lakas": "1406"
+ },
+ {
+  "telepaz": "7834",
+  "megnevezes": "Derekegyház",
+  "rang": "község",
+  "kisterseg": "Szentesi",
+  "terulet": "5379",
+  "nepesseg": "1808",
+  "lakas": "676"
+ },
+ {
+  "telepaz": "24077",
+  "megnevezes": "Deszk",
+  "rang": "község",
+  "kisterseg": "Szegedi",
+  "terulet": "5205",
+  "nepesseg": "3419",
+  "lakas": "1141"
+ },
+ {
+  "telepaz": "30535",
+  "megnevezes": "Dóc",
+  "rang": "község",
+  "kisterseg": "Szegedi",
+  "terulet": "4943",
+  "nepesseg": "792",
+  "lakas": "325"
+ },
+ {
+  "telepaz": "13383",
+  "megnevezes": "Domaszék",
+  "rang": "község",
+  "kisterseg": "Szegedi",
+  "terulet": "5215",
+  "nepesseg": "4519",
+  "lakas": "1802"
+ },
+ {
+  "telepaz": "22992",
+  "megnevezes": "Eperjes",
+  "rang": "község",
+  "kisterseg": "Szentesi",
+  "terulet": "7393",
+  "nepesseg": "647",
+  "lakas": "349"
+ },
+ {
+  "telepaz": "19974",
+  "megnevezes": "Fábiánsebestyén",
+  "rang": "község",
+  "kisterseg": "Szentesi",
+  "terulet": "7173",
+  "nepesseg": "2263",
+  "lakas": "891"
+ },
+ {
+  "telepaz": "22646",
+  "megnevezes": "Felgyő",
+  "rang": "község",
+  "kisterseg": "Csongrádi",
+  "terulet": "7673",
+  "nepesseg": "1472",
+  "lakas": "610"
+ },
+ {
+  "telepaz": "18999",
+  "megnevezes": "Ferencszállás",
+  "rang": "község",
+  "kisterseg": "Makói",
+  "terulet": "579",
+  "nepesseg": "631",
+  "lakas": "270"
+ },
+ {
+  "telepaz": "33020",
+  "megnevezes": "Forráskút",
+  "rang": "község",
+  "kisterseg": "Mórahalomi",
+  "terulet": "3667",
+  "nepesseg": "2327",
+  "lakas": "1021"
+ },
+ {
+  "telepaz": "9210",
+  "megnevezes": "Földeák",
+  "rang": "község",
+  "kisterseg": "Makói",
+  "terulet": "3637",
+  "nepesseg": "3371",
+  "lakas": "1477"
+ },
+ {
+  "telepaz": "13666",
+  "megnevezes": "Királyhegyes",
+  "rang": "község",
+  "kisterseg": "Makói",
+  "terulet": "2980",
+  "nepesseg": "702",
+  "lakas": "370"
+ },
+ {
+  "telepaz": "26666",
+  "megnevezes": "Kiszombor",
+  "rang": "község",
+  "kisterseg": "Makói",
+  "terulet": "6581",
+  "nepesseg": "4177",
+  "lakas": "1629"
+ },
+ {
+  "telepaz": "8253",
+  "megnevezes": "Klárafalva",
+  "rang": "község",
+  "kisterseg": "Makói",
+  "terulet": "910",
+  "nepesseg": "516",
+  "lakas": "194"
+ },
+ {
+  "telepaz": "9955",
+  "megnevezes": "Kövegy",
+  "rang": "község",
+  "kisterseg": "Makói",
+  "terulet": "971",
+  "nepesseg": "471",
+  "lakas": "254"
+ },
+ {
+  "telepaz": "14410",
+  "megnevezes": "Kübekháza",
+  "rang": "község",
+  "kisterseg": "Szegedi",
+  "terulet": "2731",
+  "nepesseg": "1641",
+  "lakas": "584"
+ },
+ {
+  "telepaz": "5962",
+  "megnevezes": "Magyarcsanád",
+  "rang": "község",
+  "kisterseg": "Makói",
+  "terulet": "4819",
+  "nepesseg": "1610",
+  "lakas": "751"
+ },
+ {
+  "telepaz": "10515",
+  "megnevezes": "Maroslele",
+  "rang": "község",
+  "kisterseg": "Makói",
+  "terulet": "4656",
+  "nepesseg": "2188",
+  "lakas": "930"
+ },
+ {
+  "telepaz": "25733",
+  "megnevezes": "Mártély",
+  "rang": "község",
+  "kisterseg": "Hódmezővásárhelyi",
+  "terulet": "4121",
+  "nepesseg": "1333",
+  "lakas": "552"
+ },
+ {
+  "telepaz": "20914",
+  "megnevezes": "Nagyér",
+  "rang": "község",
+  "kisterseg": "Makói",
+  "terulet": "1229",
+  "nepesseg": "598",
+  "lakas": "268"
+ },
+ {
+  "telepaz": "12779",
+  "megnevezes": "Nagylak",
+  "rang": "község",
+  "kisterseg": "Makói",
+  "terulet": "470",
+  "nepesseg": "605",
+  "lakas": "295"
+ },
+ {
+  "telepaz": "29179",
+  "megnevezes": "Nagytőke",
+  "rang": "község",
+  "kisterseg": "Szentesi",
+  "terulet": "5468",
+  "nepesseg": "503",
+  "lakas": "233"
+ },
+ {
+  "telepaz": "7755",
+  "megnevezes": "Óföldeák",
+  "rang": "község",
+  "kisterseg": "Makói",
+  "terulet": "3509",
+  "nepesseg": "507",
+  "lakas": "191"
+ },
+ {
+  "telepaz": "12797",
+  "megnevezes": "Ópusztaszer",
+  "rang": "község",
+  "kisterseg": "Kisteleki",
+  "terulet": "5950",
+  "nepesseg": "2338",
+  "lakas": "935"
+ },
+ {
+  "telepaz": "31079",
+  "megnevezes": "Öttömös",
+  "rang": "község",
+  "kisterseg": "Mórahalomi",
+  "terulet": "3091",
+  "nepesseg": "810",
+  "lakas": "423"
+ },
+ {
+  "telepaz": "6284",
+  "megnevezes": "Pitvaros",
+  "rang": "község",
+  "kisterseg": "Makói",
+  "terulet": "1314",
+  "nepesseg": "1504",
+  "lakas": "675"
+ },
+ {
+  "telepaz": "6354",
+  "megnevezes": "Pusztamérges",
+  "rang": "község",
+  "kisterseg": "Mórahalomi",
+  "terulet": "2439",
+  "nepesseg": "1229",
+  "lakas": "608"
+ },
+ {
+  "telepaz": "28592",
+  "megnevezes": "Pusztaszer",
+  "rang": "község",
+  "kisterseg": "Kisteleki",
+  "terulet": "4893",
+  "nepesseg": "1665",
+  "lakas": "786"
+ },
+ {
+  "telepaz": "13161",
+  "megnevezes": "Röszke",
+  "rang": "község",
+  "kisterseg": "Szegedi",
+  "terulet": "3663",
+  "nepesseg": "3310",
+  "lakas": "1384"
+ },
+ {
+  "telepaz": "3966",
+  "megnevezes": "Ruzsa",
+  "rang": "község",
+  "kisterseg": "Mórahalomi",
+  "terulet": "8468",
+  "nepesseg": "2783",
+  "lakas": "1421"
+ },
+ {
+  "telepaz": "12007",
+  "megnevezes": "Szatymaz",
+  "rang": "község",
+  "kisterseg": "Szegedi",
+  "terulet": "5372",
+  "nepesseg": "4430",
+  "lakas": "1903"
+ },
+ {
+  "telepaz": "12265",
+  "megnevezes": "Székkutas",
+  "rang": "község",
+  "kisterseg": "Hódmezővásárhelyi",
+  "terulet": "12399",
+  "nepesseg": "2598",
+  "lakas": "1079"
+ },
+ {
+  "telepaz": "16966",
+  "megnevezes": "Tiszasziget",
+  "rang": "község",
+  "kisterseg": "Szegedi",
+  "terulet": "2689",
+  "nepesseg": "1761",
+  "lakas": "602"
+ },
+ {
+  "telepaz": "25900",
+  "megnevezes": "Tömörkény",
+  "rang": "község",
+  "kisterseg": "Csongrádi",
+  "terulet": "5391",
+  "nepesseg": "1931",
+  "lakas": "1038"
+ },
+ {
+  "telepaz": "14924",
+  "megnevezes": "Újszentiván",
+  "rang": "község",
+  "kisterseg": "Szegedi",
+  "terulet": "1549",
+  "nepesseg": "1636",
+  "lakas": "525"
+ },
+ {
+  "telepaz": "21412",
+  "megnevezes": "Üllés",
+  "rang": "község",
+  "kisterseg": "Mórahalomi",
+  "terulet": "4988",
+  "nepesseg": "3181",
+  "lakas": "1476"
+ },
+ {
+  "telepaz": "5546",
+  "megnevezes": "Zákányszék",
+  "rang": "község",
+  "kisterseg": "Mórahalomi",
+  "terulet": "6606",
+  "nepesseg": "2803",
+  "lakas": "1385"
+ },
+ {
+  "telepaz": "17765",
+  "megnevezes": "Zsombó",
+  "rang": "község",
+  "kisterseg": "Szegedi",
+  "terulet": "2690",
+  "nepesseg": "3441",
+  "lakas": "1287"
+ }
+]
+}

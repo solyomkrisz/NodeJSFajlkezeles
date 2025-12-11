@@ -7,11 +7,20 @@ const fs = require('fs');
 const multer = require('multer'); //?npm install multer
 const path = require('path');
 
+//?2. feladat:
 const data = fs.readFileSync(path.join(__dirname, '../files/szamok.txt'), 'utf-8');
 const numbers = data
     .split(',')
     .filter((i) => i)
     .map((i) => parseInt(i.trim()));
+
+//?3. feladat:
+let rawJSON = fs.readFileSync(path.join(__dirname, '../files/statisztika.json'), 'utf-8');
+const { telepules: statistics } = JSON.parse(rawJSON);
+
+//?4. feladat:
+rawJSON = fs.readFileSync(path.join(__dirname, '../files/barlangok.json'), 'utf-8');
+const caves = JSON.parse(rawJSON);
 
 const storage = multer.diskStorage({
     destination: (request, file, callback) => {
@@ -135,7 +144,7 @@ router.get('/rendezett', async (request, response) => {
             }
 
             if (i === min_i) continue;
-            
+
             sorted[i] = sorted[i] + sorted[min_i];
             sorted[min_i] = sorted[i] - sorted[min_i];
             sorted[i] = sorted[i] - sorted[min_i];
@@ -146,6 +155,72 @@ router.get('/rendezett', async (request, response) => {
         response.statusMessage = error;
         response.status(500).end();
     }
+});
+
+//?3. feladat:
+router.get('/getallstat', (request, response) => {
+    response.status(200).json({ result: statistics });
+});
+
+router.get('/getstat/:telepaz', (request, response) => {
+    const telepaz = request.params.telepaz;
+
+    let j = 0;
+    while (j < statistics.length && statistics[j].telepaz != telepaz) j++;
+
+    if (j < statistics.length) {
+        return response.status(200).json({ result: statistics[j] });
+    } else {
+        return response.status(200).json({ errorMsg: 'Nem található ilyen település azonosító!' });
+    }
+});
+
+//?4. feladat
+router.get('/barlangok', (request, response) => {
+    response.status(200).json({ success: true, result: caves });
+});
+
+router.get('/barlang/:azon', (request, response) => {
+    const id = request.params.azon;
+
+    let j = 0;
+    while (j < caves.length && caves[j].azon != id) j++;
+
+    if (j < caves.length) {
+        response.status(200).json({ result: caves[j], success: true });
+    } else {
+        response.status(200).json({ success: false });
+    }
+});
+
+router.get('/stat', (request, response) => {
+    let leghossz = null;
+    let legmely = null;
+    let fokozottanVedettDb = 0;
+
+    for (const cave of caves) {
+        if (!leghossz || Number(leghossz.hossz) < Number(cave.hossz)) {
+            leghossz = cave;
+        }
+
+        if (!legmely || Number(legmely.melyseg) < Number(cave.melyseg)) {
+            legmely = cave;
+        }
+
+        if (cave.vedettseg === 'fokozottan védett') {
+            fokozottanVedettDb++;
+        }
+    }
+
+    response.json({
+        success: true,
+        result: {
+            leghosszabb: leghossz.nev,
+            legmelyebb: legmely.melyseg,
+            barlangokSzama: caves.length,
+            fokozottanVedettDb
+        }
+    });
 });
 
 module.exports = router;

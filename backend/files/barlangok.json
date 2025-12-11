@@ -1,0 +1,1834 @@
+[
+    {
+        "azon": "1",
+        "nev": "Abaligeti-barlang",
+        "hossz": "1893",
+        "melyseg": "10",
+        "telepules": "Abaliget",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "2",
+        "nev": "Acheron-kútbarlang",
+        "hossz": "215",
+        "melyseg": "0",
+        "telepules": "Cserszegtomaj",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "3",
+        "nev": "Achilles-víznyelőbarlang",
+        "hossz": "140",
+        "melyseg": "28",
+        "telepules": "Orfű",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "4",
+        "nev": "Ajándék-barlang",
+        "hossz": "3140",
+        "melyseg": "184",
+        "telepules": "Esztergom",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "5",
+        "nev": "Alba Regia-barlang",
+        "hossz": "3600",
+        "melyseg": "200",
+        "telepules": "Isztimér",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "6",
+        "nev": "Almási-zsomboly",
+        "hossz": "358",
+        "melyseg": "100",
+        "telepules": "Bódvaszilas",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "7",
+        "nev": "Amazonok-barlangja",
+        "hossz": "141",
+        "melyseg": "12",
+        "telepules": "Pomáz",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "8",
+        "nev": "Amfiteátrum-barlang",
+        "hossz": "294",
+        "melyseg": "76",
+        "telepules": "Üröm",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "9",
+        "nev": "Anna-barlang",
+        "hossz": "445",
+        "melyseg": "4",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "10",
+        "nev": "Avaros-barlang",
+        "hossz": "390",
+        "melyseg": "53",
+        "telepules": "Kesztölc",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "11",
+        "nev": "B-3-as víznyelőbarlang",
+        "hossz": "388",
+        "melyseg": "53",
+        "telepules": "Ajka",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "12",
+        "nev": "Babál-barlang",
+        "hossz": "238",
+        "melyseg": "9",
+        "telepules": "Sárisáp",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "13",
+        "nev": "Bába-völgyi 3.sz. víznyelőbarlang",
+        "hossz": "107",
+        "melyseg": "11",
+        "telepules": "Bódvaszilas",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "14",
+        "nev": "Baglyas 1. sz. víznyelőbarlang",
+        "hossz": "153",
+        "melyseg": "23",
+        "telepules": "Nagyvázsony",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "15",
+        "nev": "Balekina-barlang",
+        "hossz": "600",
+        "melyseg": "90",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "16",
+        "nev": "Balla-barlang",
+        "hossz": "128",
+        "melyseg": "1",
+        "telepules": "Répáshuta",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "17",
+        "nev": "Banán-zsomboly",
+        "hossz": "108",
+        "melyseg": "45",
+        "telepules": "Bódvaszilas",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "18",
+        "nev": "Bányász-barlang",
+        "hossz": "959",
+        "melyseg": "303",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "19",
+        "nev": "Baradla Hosszú-Alsó-barlang",
+        "hossz": "235",
+        "melyseg": "12",
+        "telepules": "Jósvafő",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "20",
+        "nev": "Baradla Rövid-Alsó-barlang",
+        "hossz": "1000",
+        "melyseg": "20",
+        "telepules": "Jósvafő",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "21",
+        "nev": "Baradla-barlang",
+        "hossz": "22000",
+        "melyseg": "86",
+        "telepules": "Jósvafő",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "22",
+        "nev": "Baradla-tetői-zsomboly",
+        "hossz": "387",
+        "melyseg": "87",
+        "telepules": "Aggtelek",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "23",
+        "nev": "Barit-barlang",
+        "hossz": "215",
+        "melyseg": "9",
+        "telepules": "Budapest III. Ker.",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "24",
+        "nev": "Bátori-barlang",
+        "hossz": "360",
+        "melyseg": "50",
+        "telepules": "Budapest II. Ker.",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "25",
+        "nev": "Béke-barlang",
+        "hossz": "5884",
+        "melyseg": "71",
+        "telepules": "Aggtelek",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "26",
+        "nev": "Bekey-barlang",
+        "hossz": "173",
+        "melyseg": "39",
+        "telepules": "Budapest II. Ker.",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "27",
+        "nev": "Beremendi-kristálybarlang",
+        "hossz": "850",
+        "melyseg": "38",
+        "telepules": "Beremend",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "28",
+        "nev": "Bodzás-oldali 2. sz. zsomboly",
+        "hossz": "400",
+        "melyseg": "56",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "29",
+        "nev": "Bongó-zsomboly",
+        "hossz": "136",
+        "melyseg": "35",
+        "telepules": "Bakonynána",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "30",
+        "nev": "Borókás-tebri 1. sz. víznyelőbarlang",
+        "hossz": "105",
+        "melyseg": "42",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "31",
+        "nev": "Borókás-tebri 2. sz. víznyelőbarlang",
+        "hossz": "503",
+        "melyseg": "95",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "32",
+        "nev": "Borókás-tebri 4. sz. víznyelőbarlang",
+        "hossz": "546",
+        "melyseg": "121",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "33",
+        "nev": "Bronz-barlang",
+        "hossz": "116",
+        "melyseg": "27",
+        "telepules": "Nagykovácsi",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "34",
+        "nev": "Bronzika-barlang",
+        "hossz": "350",
+        "melyseg": "24",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "35",
+        "nev": "Buda-barlang",
+        "hossz": "217",
+        "melyseg": "69",
+        "telepules": "Budapest II. Ker.",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "36",
+        "nev": "Budai Vár-barlang",
+        "hossz": "3300",
+        "melyseg": "15",
+        "telepules": "Budapest I. Ker.",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "37",
+        "nev": "Budakalászi 2. sz. barlang",
+        "hossz": "109",
+        "melyseg": "7",
+        "telepules": "Budakalász",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "38",
+        "nev": "Bújó-lik",
+        "hossz": "208",
+        "melyseg": "39",
+        "telepules": "Ajka",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "39",
+        "nev": "Bükkös-víznyelőbarlang",
+        "hossz": "239",
+        "melyseg": "46",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "40",
+        "nev": "Cubákos-víznyelőbarlang",
+        "hossz": "380",
+        "melyseg": "39",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "41",
+        "nev": "Csák-kői nagy-barlang",
+        "hossz": "133",
+        "melyseg": "0",
+        "telepules": "Gyöngyössolymos",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "42",
+        "nev": "Csemetekerti-víznyelőbarlang",
+        "hossz": "204",
+        "melyseg": "21",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "43",
+        "nev": "Csengő-zsomboly",
+        "hossz": "283",
+        "melyseg": "26",
+        "telepules": "Szendrő",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "44",
+        "nev": "Csengő-zsomboly",
+        "hossz": "210",
+        "melyseg": "133",
+        "telepules": "Olaszfalu",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "45",
+        "nev": "Cserszegtomaji-kútbarlang",
+        "hossz": "3299",
+        "melyseg": "10",
+        "telepules": "Cserszegtomaj",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "46",
+        "nev": "Csévi-barlang",
+        "hossz": "104",
+        "melyseg": "0",
+        "telepules": "Piliscsév",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "47",
+        "nev": "Csipkés-zsomboly",
+        "hossz": "180",
+        "melyseg": "71",
+        "telepules": "Tés",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "48",
+        "nev": "Csodabogyós-barlang",
+        "hossz": "6300",
+        "melyseg": "142",
+        "telepules": "Balatonederics",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "49",
+        "nev": "Csókási Sajt-barlang",
+        "hossz": "294",
+        "melyseg": "26",
+        "telepules": "Parasznya",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "50",
+        "nev": "Csókási-barlang",
+        "hossz": "148",
+        "melyseg": "13",
+        "telepules": "Parasznya",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "51",
+        "nev": "Csókás-réti-víznyelőbarlang",
+        "hossz": "207",
+        "melyseg": "16",
+        "telepules": "Parasznya",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "52",
+        "nev": "Csókavári-barlang",
+        "hossz": "285",
+        "melyseg": "65",
+        "telepules": "Üröm",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "53",
+        "nev": "Csörgő-forrásbarlang",
+        "hossz": "120",
+        "melyseg": "0",
+        "telepules": "Szögliget",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "54",
+        "nev": "Csörgő-lyuk",
+        "hossz": "428",
+        "melyseg": "29",
+        "telepules": "Mátraszentimre",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "55",
+        "nev": "Csúnya-völgyi Baka-barlang",
+        "hossz": "210",
+        "melyseg": "16",
+        "telepules": "Répáshuta",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "56",
+        "nev": "Danca-barlang",
+        "hossz": "1390",
+        "melyseg": "0",
+        "telepules": "Égerszög",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "57",
+        "nev": "Diabáz-barlang",
+        "hossz": "802",
+        "melyseg": "159",
+        "telepules": "Miskolc III. Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "58",
+        "nev": "Dinó-rejtek",
+        "hossz": "843",
+        "melyseg": "115",
+        "telepules": "Csobánka",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "59",
+        "nev": "Diós-pataki 2. sz. víznyelő",
+        "hossz": "362",
+        "melyseg": "26",
+        "telepules": "Bükkszentkereszt",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "60",
+        "nev": "Döbbenet-barlang",
+        "hossz": "102",
+        "melyseg": "50",
+        "telepules": "Baj",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "61",
+        "nev": "Döme-barlang",
+        "hossz": "353",
+        "melyseg": "107",
+        "telepules": "Balatonederics",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "62",
+        "nev": "Egér-lyuk",
+        "hossz": "103",
+        "melyseg": "0",
+        "telepules": "Szögliget",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "63",
+        "nev": "Eötvös Loránd-cseppkőbarlang",
+        "hossz": "256",
+        "melyseg": "30",
+        "telepules": "Szinpetri",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "64",
+        "nev": "Esztáz-kői-barlang",
+        "hossz": "160",
+        "melyseg": "18",
+        "telepules": "Felsőtárkány",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "65",
+        "nev": "Esztramosi 6. szint 1. sz. barlangja",
+        "hossz": "100",
+        "melyseg": "0",
+        "telepules": "Tornaszentandrás",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "66",
+        "nev": "Esztramosi Felső-táró 1. sz. barlangja",
+        "hossz": "152",
+        "melyseg": "9",
+        "telepules": "Tornaszentandrás",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "67",
+        "nev": "Esztramosi Földvári Aladár-barlang",
+        "hossz": "410",
+        "melyseg": "7",
+        "telepules": "Bódvarákó",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "68",
+        "nev": "Esztramosi Pantó-barlang",
+        "hossz": "470",
+        "melyseg": "0",
+        "telepules": "Tornaszentandrás",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "69",
+        "nev": "Fecske-lyuk",
+        "hossz": "350",
+        "melyseg": "8",
+        "telepules": "Miskolc II.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "70",
+        "nev": "Fekete-barlang",
+        "hossz": "3450",
+        "melyseg": "169",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "71",
+        "nev": "Felső-barlang",
+        "hossz": "253",
+        "melyseg": "25",
+        "telepules": "Miskolc II.Kerület",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "72",
+        "nev": "Fenyves-réti 1. sz. víznyelőbarlang",
+        "hossz": "122",
+        "melyseg": "19",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "73",
+        "nev": "Ferenc 5-6. sz. barlang",
+        "hossz": "103",
+        "melyseg": "30",
+        "telepules": "Budapest II. Ker.",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "74",
+        "nev": "Ferenc-hegyi-barlang",
+        "hossz": "6641",
+        "melyseg": "45",
+        "telepules": "Budapest II. Ker.",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "75",
+        "nev": "Frank-barlang",
+        "hossz": "203",
+        "melyseg": "46",
+        "telepules": "Bódvaszilas",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "76",
+        "nev": "Gánti-barlang",
+        "hossz": "149",
+        "melyseg": "14",
+        "telepules": "Gánt",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "77",
+        "nev": "Gilisztás-víznyelőbarlang",
+        "hossz": "134",
+        "melyseg": "51",
+        "telepules": "Orfű",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "78",
+        "nev": "Gyurkó-lápai-barlang",
+        "hossz": "181",
+        "melyseg": "39",
+        "telepules": "Varbó",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "79",
+        "nev": "Hajnóczy-barlang",
+        "hossz": "4250",
+        "melyseg": "81",
+        "telepules": "Cserépfalu",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "80",
+        "nev": "Hajszabarnai Pénz-lik",
+        "hossz": "120",
+        "melyseg": "13",
+        "telepules": "Bakonyjákó",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "81",
+        "nev": "Háromkürtő-zsomboly",
+        "hossz": "214",
+        "melyseg": "89",
+        "telepules": "Tés",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "82",
+        "nev": "Hárskúti-cseppkőbarlang",
+        "hossz": "1171",
+        "melyseg": "76",
+        "telepules": "Hárskút",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "83",
+        "nev": "Herman Ottó-barlang",
+        "hossz": "131",
+        "melyseg": "2",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "84",
+        "nev": "Hillebrand Jenő-barlang",
+        "hossz": "240",
+        "melyseg": "16",
+        "telepules": "Parasznya",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "85",
+        "nev": "Ikertebri-víznyelőbarlang",
+        "hossz": "396",
+        "melyseg": "69",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "86",
+        "nev": "Ilus-kúti-zsomboly",
+        "hossz": "170",
+        "melyseg": "14",
+        "telepules": "Bükkzsérc",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "87",
+        "nev": "István-lápai-barlang",
+        "hossz": "7500",
+        "melyseg": "247",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "88",
+        "nev": "Jakucs László-barlang",
+        "hossz": "154",
+        "melyseg": "24",
+        "telepules": "Balatonederics",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "89",
+        "nev": "Jáspis-barlang",
+        "hossz": "1051",
+        "melyseg": "189",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "90",
+        "nev": "József-hegyi-barlang",
+        "hossz": "5446",
+        "melyseg": "100",
+        "telepules": "Budapest II. Ker.",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "91",
+        "nev": "Jubileumi-zsomboly",
+        "hossz": "222",
+        "melyseg": "121",
+        "telepules": "Tés",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "92",
+        "nev": "Jura-zsomboly",
+        "hossz": "147",
+        "melyseg": "41",
+        "telepules": "Süttő",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "93",
+        "nev": "Kajla-zsomboly",
+        "hossz": "128",
+        "melyseg": "28",
+        "telepules": "Bükkszentkereszt",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "94",
+        "nev": "Kalapács-kői-barlang",
+        "hossz": "260",
+        "melyseg": "38",
+        "telepules": "Parasznya",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "95",
+        "nev": "Kálvária-hegyi 1. sz. barlang",
+        "hossz": "144",
+        "melyseg": "11",
+        "telepules": "Tatabánya",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "96",
+        "nev": "Károlyházi-nyelő barlangja",
+        "hossz": "100",
+        "melyseg": "65",
+        "telepules": "Csesznek",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "97",
+        "nev": "Kecske-lyuk",
+        "hossz": "480",
+        "melyseg": "0",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "98",
+        "nev": "Kecskés-kúti-forrásbarlang",
+        "hossz": "108",
+        "melyseg": "0",
+        "telepules": "Szögliget",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "99",
+        "nev": "Keselő-hegyi 11. sz. barlang",
+        "hossz": "175",
+        "melyseg": "66",
+        "telepules": "Tatabánya",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "100",
+        "nev": "Keselő-hegyi-barlang",
+        "hossz": "604",
+        "melyseg": "115",
+        "telepules": "Tatabánya",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "101",
+        "nev": "Kessler Hubert-barlang",
+        "hossz": "2416",
+        "melyseg": "195",
+        "telepules": "Balatonederics",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "102",
+        "nev": "Kesztölci-barlang",
+        "hossz": "100",
+        "melyseg": "0",
+        "telepules": "Kesztölc",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "103",
+        "nev": "Kevély-nyergi-rókalyuk",
+        "hossz": "100",
+        "melyseg": "6",
+        "telepules": "Pilisborosjenő",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "104",
+        "nev": "Kincses-gödör",
+        "hossz": "407",
+        "melyseg": "17",
+        "telepules": "Tapolca",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "105",
+        "nev": "Király Lajos-zsomboly",
+        "hossz": "365",
+        "melyseg": "38",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "106",
+        "nev": "Király-kúti-zsomboly",
+        "hossz": "138",
+        "melyseg": "39",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "107",
+        "nev": "Királylaki-barlang",
+        "hossz": "380",
+        "melyseg": "34",
+        "telepules": "Budapest III. Ker.",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "108",
+        "nev": "Kis-kőháti-zsomboly",
+        "hossz": "480",
+        "melyseg": "117",
+        "telepules": "Nagyvisnyó",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "109",
+        "nev": "Kis-mogyorós-víznyelőbarlang",
+        "hossz": "150",
+        "melyseg": "53",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "110",
+        "nev": "Klotild-barlang",
+        "hossz": "142",
+        "melyseg": "12",
+        "telepules": "Pilisvörösvár",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "111",
+        "nev": "Kopaszgally-oldali 2. sz. víznyelőbarlang",
+        "hossz": "431",
+        "melyseg": "116",
+        "telepules": "Bódvaszilas",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "112",
+        "nev": "Kopasz-vigasz-barlang",
+        "hossz": "220",
+        "melyseg": "37",
+        "telepules": "Bódvaszilas",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "113",
+        "nev": "Kopolya-forrásbarlang",
+        "hossz": "110",
+        "melyseg": "11",
+        "telepules": "Szinpetri",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "114",
+        "nev": "Kopolya-zsomboly",
+        "hossz": "206",
+        "melyseg": "42",
+        "telepules": "Szin",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "115",
+        "nev": "Kossuth-barlang",
+        "hossz": "1467",
+        "melyseg": "30",
+        "telepules": "Jósvafő",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "116",
+        "nev": "Kőháti-barlang",
+        "hossz": "142",
+        "melyseg": "20",
+        "telepules": "Bükkzsérc",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "117",
+        "nev": "Kő-lyuk",
+        "hossz": "623",
+        "melyseg": "19",
+        "telepules": "Parasznya",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "118",
+        "nev": "Kőlyuk-galyai-barlang",
+        "hossz": "142",
+        "melyseg": "12",
+        "telepules": "Kisgyőr",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "119",
+        "nev": "Kullancsos-barlang",
+        "hossz": "132",
+        "melyseg": "41",
+        "telepules": "Baj",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "120",
+        "nev": "László bányamester barlangja",
+        "hossz": "180",
+        "melyseg": "54",
+        "telepules": "Szilvásvárad",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "121",
+        "nev": "Lengyel-barlang",
+        "hossz": "520",
+        "melyseg": "69",
+        "telepules": "Tatabánya",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "122",
+        "nev": "Létrási-vizesbarlang",
+        "hossz": "3757",
+        "melyseg": "59",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "123",
+        "nev": "Lilla-barlang",
+        "hossz": "225",
+        "melyseg": "19",
+        "telepules": "Parasznya",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "124",
+        "nev": "Lóczy-barlang",
+        "hossz": "154",
+        "melyseg": "15",
+        "telepules": "Balatonfüred",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "125",
+        "nev": "Lök-völgyi-barlang",
+        "hossz": "104",
+        "melyseg": "0",
+        "telepules": "Felsőtárkány",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "126",
+        "nev": "Lyukas-gerinci-zsomboly",
+        "hossz": "100",
+        "melyseg": "34",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "127",
+        "nev": "Macska-barlang",
+        "hossz": "139",
+        "melyseg": "24",
+        "telepules": "Csobánka",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "128",
+        "nev": "Magas-tetői-barlang",
+        "hossz": "293",
+        "melyseg": "33",
+        "telepules": "Szögliget",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "129",
+        "nev": "Maja-barlang",
+        "hossz": "220",
+        "melyseg": "55",
+        "telepules": "Parasznya",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "130",
+        "nev": "Mánfai-kőlyuk",
+        "hossz": "360",
+        "melyseg": "4",
+        "telepules": "Mánfa",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "131",
+        "nev": "Medvehagymás-barlang",
+        "hossz": "117",
+        "melyseg": "31",
+        "telepules": "Balatonederics",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "132",
+        "nev": "Medvetükrös-barlang",
+        "hossz": "107",
+        "melyseg": "28",
+        "telepules": "Szilvásvárad",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "133",
+        "nev": "Megalodus-barlang",
+        "hossz": "261",
+        "melyseg": "20",
+        "telepules": "Tata",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "134",
+        "nev": "Mészégető-források-barlangja",
+        "hossz": "279",
+        "melyseg": "1",
+        "telepules": "Orfű",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "135",
+        "nev": "Meteor-barlang",
+        "hossz": "1672",
+        "melyseg": "126",
+        "telepules": "Bódvaszilas",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "136",
+        "nev": "Mexikó-völgyi-víznyelőbarlang",
+        "hossz": "414",
+        "melyseg": "79",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "137",
+        "nev": "Miskolctapolcai-tavasbarlang",
+        "hossz": "561",
+        "melyseg": "20",
+        "telepules": "Miskolc II.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "138",
+        "nev": "Molnár János-barlang",
+        "hossz": "5331",
+        "melyseg": "71",
+        "telepules": "Budapest II. Ker.",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "139",
+        "nev": "Nagyharsányi-kristálybarlang",
+        "hossz": "1475",
+        "melyseg": "63",
+        "telepules": "Nagyharsány",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "140",
+        "nev": "Nagykőmázsa-völgyi-víznyelőbarlang",
+        "hossz": "344",
+        "melyseg": "98",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "141",
+        "nev": "Nagy-Somlyóhegyi-barlang",
+        "hossz": "107",
+        "melyseg": "52",
+        "telepules": "Pilisjászfalu",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "142",
+        "nev": "Násznép-barlang",
+        "hossz": "223",
+        "melyseg": "7",
+        "telepules": "Kosd",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "143",
+        "nev": "Nézsai-víznyelőbarlang",
+        "hossz": "394",
+        "melyseg": "55",
+        "telepules": "Nézsa",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "144",
+        "nev": "Nincskegyelem-aknabarlang",
+        "hossz": "224",
+        "melyseg": "71",
+        "telepules": "Vác",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "145",
+        "nev": "November 7. barlang",
+        "hossz": "514",
+        "melyseg": "89",
+        "telepules": "Balatonederics",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "146",
+        "nev": "Nyárjú-hegyi-barlang",
+        "hossz": "157",
+        "melyseg": "19",
+        "telepules": "Mályinka",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "147",
+        "nev": "Nyárjú-hegyi-zsomboly",
+        "hossz": "245",
+        "melyseg": "35",
+        "telepules": "Mályinka",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "148",
+        "nev": "Odorvári K-i hasadék",
+        "hossz": "188",
+        "melyseg": "52",
+        "telepules": "Cserépfalu",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "149",
+        "nev": "Odorvári-barlang",
+        "hossz": "296",
+        "melyseg": "26",
+        "telepules": "Cserépfalu",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "150",
+        "nev": "Orfűi Vízfő-barlang",
+        "hossz": "391",
+        "melyseg": "21",
+        "telepules": "Orfű",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "151",
+        "nev": "Ördög-kút",
+        "hossz": "182",
+        "melyseg": "37",
+        "telepules": "Parasznya",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "152",
+        "nev": "Öreg-Kovács-hegyi 15. sz. víznyelő barlangja",
+        "hossz": "128",
+        "melyseg": "19",
+        "telepules": "Baj",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "153",
+        "nev": "Öreg-kői 1. sz. zsomboly",
+        "hossz": "115",
+        "melyseg": "34",
+        "telepules": "Bajót",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "154",
+        "nev": "Öreg-köves-víznyelőbarlang",
+        "hossz": "378",
+        "melyseg": "59",
+        "telepules": "Nagyvázsony",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "155",
+        "nev": "Ősi-barlang",
+        "hossz": "112",
+        "melyseg": "26",
+        "telepules": "Esztergom",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "156",
+        "nev": "Őz-tebri-barlang",
+        "hossz": "120",
+        "melyseg": "25",
+        "telepules": "Parasznya",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "157",
+        "nev": "Paksi mogyoró-barlang",
+        "hossz": "114",
+        "melyseg": "24",
+        "telepules": "Baj",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "158",
+        "nev": "Palota 2. sz. barlang",
+        "hossz": "275",
+        "melyseg": "16",
+        "telepules": "Répáshuta",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "159",
+        "nev": "Papp Ferenc-barlang",
+        "hossz": "356",
+        "melyseg": "65",
+        "telepules": "Pilisborosjenő",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "160",
+        "nev": "Pénz-pataki-víznyelőbarlang",
+        "hossz": "1989",
+        "melyseg": "150",
+        "telepules": "Bükkszentkereszt",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "161",
+        "nev": "Peskő-katlani-víznyelőbarlang",
+        "hossz": "249",
+        "melyseg": "40",
+        "telepules": "Bélapátfalva",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "162",
+        "nev": "Pietró-barlang",
+        "hossz": "133",
+        "melyseg": "29",
+        "telepules": "Orfű",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "163",
+        "nev": "Pilis-barlang",
+        "hossz": "564",
+        "melyseg": "5",
+        "telepules": "Pilisszentkereszt",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "164",
+        "nev": "Pipa-zsomboly",
+        "hossz": "125",
+        "melyseg": "48",
+        "telepules": "Zirc",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "165",
+        "nev": "Pisznice-barlang",
+        "hossz": "714",
+        "melyseg": "6",
+        "telepules": "Lábatlan",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "166",
+        "nev": "Pócsakői-víznyelő",
+        "hossz": "237",
+        "melyseg": "69",
+        "telepules": "Bódvaszilas",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "167",
+        "nev": "Pomázi kőfejtő Felső-barlangja",
+        "hossz": "300",
+        "melyseg": "45",
+        "telepules": "Pomáz",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "168",
+        "nev": "Pulai-bazaltbarlang",
+        "hossz": "150",
+        "melyseg": "21",
+        "telepules": "Pula",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "169",
+        "nev": "Rácskai-barlang",
+        "hossz": "176",
+        "melyseg": "25",
+        "telepules": "Remeteszőlős",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "170",
+        "nev": "Rákóczi 1. sz. barlang",
+        "hossz": "750",
+        "melyseg": "61",
+        "telepules": "Tornaszentandrás",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "171",
+        "nev": "Rákóczi 2. sz. barlang",
+        "hossz": "534",
+        "melyseg": "53",
+        "telepules": "Tornaszentandrás",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "172",
+        "nev": "Rákóczi 3. sz. barlang",
+        "hossz": "150",
+        "melyseg": "27",
+        "telepules": "Tornaszentandrás",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "173",
+        "nev": "Rákóczi 4. sz. barlang",
+        "hossz": "150",
+        "melyseg": "0",
+        "telepules": "Tornaszentandrás",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "174",
+        "nev": "Rákóczi-oldaltáró-barlangja",
+        "hossz": "170",
+        "melyseg": "10",
+        "telepules": "Tornaszentandrás",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "175",
+        "nev": "Rejtek-zsomboly",
+        "hossz": "450",
+        "melyseg": "66",
+        "telepules": "Szögliget",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "176",
+        "nev": "Sátorkőpusztai-barlang",
+        "hossz": "354",
+        "melyseg": "49",
+        "telepules": "Esztergom",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "177",
+        "nev": "Soltész-kerti-mésztufabarlang",
+        "hossz": "216",
+        "melyseg": "15",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "178",
+        "nev": "Solymári-ördöglyuk",
+        "hossz": "5897",
+        "melyseg": "78",
+        "telepules": "Solymár",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "179",
+        "nev": "Soproni Zsivány-barlang",
+        "hossz": "265",
+        "melyseg": "12",
+        "telepules": "Fertőrákos",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "180",
+        "nev": "Speizi-barlang",
+        "hossz": "718",
+        "melyseg": "96",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "181",
+        "nev": "Spirál-víznyelő",
+        "hossz": "1090",
+        "melyseg": "83",
+        "telepules": "Pécs III. Ker.",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "182",
+        "nev": "Strázsa-hegyi-barlang",
+        "hossz": "161",
+        "melyseg": "20",
+        "telepules": "Esztergom",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "183",
+        "nev": "Sűrű-hegyi Ördög-lik",
+        "hossz": "150",
+        "melyseg": "11",
+        "telepules": "Dudar",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "184",
+        "nev": "Szabadság-barlang",
+        "hossz": "2757",
+        "melyseg": "30",
+        "telepules": "Égerszög",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "185",
+        "nev": "Szabó József-barlang",
+        "hossz": "152",
+        "melyseg": "15",
+        "telepules": "Budakalász",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "186",
+        "nev": "Szabó-pallagi-zsomboly",
+        "hossz": "960",
+        "melyseg": "150",
+        "telepules": "Bódvaszilas",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "187",
+        "nev": "Szaftos-barlang",
+        "hossz": "103",
+        "melyseg": "14",
+        "telepules": "Tés",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "188",
+        "nev": "Szajha-felső-víznyelőbarlang",
+        "hossz": "150",
+        "melyseg": "43",
+        "telepules": "Abaliget",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "189",
+        "nev": "Szalajka-forrásbarlang",
+        "hossz": "100",
+        "melyseg": "65",
+        "telepules": "Szilvásvárad",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "190",
+        "nev": "Szamentu-barlang",
+        "hossz": "945",
+        "melyseg": "36",
+        "telepules": "Varbó",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "191",
+        "nev": "Széki-zsomboly",
+        "hossz": "120",
+        "melyseg": "51",
+        "telepules": "Bódvaszilas",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "192",
+        "nev": "Szelelő-lyuk",
+        "hossz": "268",
+        "melyseg": "25",
+        "telepules": "Tés",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "193",
+        "nev": "Szeleta-barlang",
+        "hossz": "115",
+        "melyseg": "3",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "194",
+        "nev": "Szeleta-zsomboly",
+        "hossz": "645",
+        "melyseg": "101",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "195",
+        "nev": "Szél-lik",
+        "hossz": "530",
+        "melyseg": "53",
+        "telepules": "Balatonederics",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "196",
+        "nev": "Szemlő-hegyi-barlang",
+        "hossz": "2230",
+        "melyseg": "11",
+        "telepules": "Budapest II. Ker.",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "197",
+        "nev": "Szent István-barlang",
+        "hossz": "1470",
+        "melyseg": "24",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "198",
+        "nev": "Szent Özséb-barlang",
+        "hossz": "889",
+        "melyseg": "80",
+        "telepules": "Pilisszentkereszt",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "199",
+        "nev": "Szentgáli-kőlik",
+        "hossz": "420",
+        "melyseg": "39",
+        "telepules": "Szentgál",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "200",
+        "nev": "Sziklafal-alatti-barlang",
+        "hossz": "141",
+        "melyseg": "36",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "201",
+        "nev": "Szikla-forrási Felső-barlang",
+        "hossz": "105",
+        "melyseg": "20",
+        "telepules": "Szilvásvárad",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "202",
+        "nev": "Szirén-barlang",
+        "hossz": "1004",
+        "melyseg": "68",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "203",
+        "nev": "Szopláki-ördöglyuk",
+        "hossz": "419",
+        "melyseg": "107",
+        "telepules": "Pilisszentkereszt",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "204",
+        "nev": "Szuadó-völgyi-víznyelőbarlang",
+        "hossz": "346",
+        "melyseg": "52",
+        "telepules": "Orfű",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "205",
+        "nev": "Szurdok-völgyi 2. sz. víznyelő",
+        "hossz": "206",
+        "melyseg": "76",
+        "telepules": "Pilisszentkereszt",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "206",
+        "nev": "Tábla-völgyi-barlang",
+        "hossz": "350",
+        "melyseg": "78",
+        "telepules": "Tés",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "207",
+        "nev": "Tábor-hegyi-barlang",
+        "hossz": "162",
+        "melyseg": "16",
+        "telepules": "Budapest III. Ker.",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "208",
+        "nev": "Tatár-árki-barlang",
+        "hossz": "156",
+        "melyseg": "35",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "209",
+        "nev": "Tektonik-zsomboly",
+        "hossz": "350",
+        "melyseg": "80",
+        "telepules": "Bódvaszilas",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "210",
+        "nev": "Tettyei-mésztufabarlang",
+        "hossz": "258",
+        "melyseg": "6",
+        "telepules": "Pécs II. Ker.",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "211",
+        "nev": "Trió-barlang",
+        "hossz": "298",
+        "melyseg": "58",
+        "telepules": "Orfű",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "212",
+        "nev": "Tűzköves-hegyi-barlang",
+        "hossz": "156",
+        "melyseg": "5",
+        "telepules": "Szentgál",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "213",
+        "nev": "Udvar-kő",
+        "hossz": "218",
+        "melyseg": "14",
+        "telepules": "Parasznya",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "214",
+        "nev": "Útmenti-víznyelőbarlang",
+        "hossz": "161",
+        "melyseg": "59",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "215",
+        "nev": "Útmenti-zsomboly",
+        "hossz": "139",
+        "melyseg": "24",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "216",
+        "nev": "Ürömi-víznyelőbarlang",
+        "hossz": "214",
+        "melyseg": "26",
+        "telepules": "Üröm",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "217",
+        "nev": "Vaddisznós-barlang",
+        "hossz": "232",
+        "melyseg": "45",
+        "telepules": "Balatongyörök",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "218",
+        "nev": "Vadetetős-víznyelőbarlang",
+        "hossz": "180",
+        "melyseg": "35",
+        "telepules": "Kővágótöttös",
+        "vedettseg": "védett"
+    },
+    {
+        "azon": "219",
+        "nev": "Vár-tetői-barlang",
+        "hossz": "550",
+        "melyseg": "99",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "220",
+        "nev": "Vass Imre-barlang",
+        "hossz": "2233",
+        "melyseg": "12",
+        "telepules": "Jósvafő",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "221",
+        "nev": "Vecsembükki-zsomboly",
+        "hossz": "896",
+        "melyseg": "234",
+        "telepules": "Bódvaszilas",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "222",
+        "nev": "Vénusz-barlang",
+        "hossz": "637",
+        "melyseg": "18",
+        "telepules": "Parasznya",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "223",
+        "nev": "Veres-hegyi-barlang",
+        "hossz": "158",
+        "melyseg": "44",
+        "telepules": "Tatabánya",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "224",
+        "nev": "Vértes László-barlang",
+        "hossz": "164",
+        "melyseg": "58",
+        "telepules": "Vértesszőlős",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "225",
+        "nev": "Vértessomlói-barlang",
+        "hossz": "180",
+        "melyseg": "36",
+        "telepules": "Vértessomló",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "226",
+        "nev": "Vesszős-gerinci-barlang",
+        "hossz": "222",
+        "melyseg": "6",
+        "telepules": "Miskolc III.Kerület",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "227",
+        "nev": "Viktória-barlang",
+        "hossz": "724",
+        "melyseg": "41",
+        "telepules": "Miskolc II.Kerület",
+        "vedettseg": "fokozottan védett"
+    },
+    {
+        "azon": "228",
+        "nev": "Zsendice-barlang",
+        "hossz": "111",
+        "melyseg": "12",
+        "telepules": "Kács",
+        "vedettseg": "megkülönböztetetten védett"
+    },
+    {
+        "azon": "229",
+        "nev": "Zsófiapusztai-víznyelőbarlang",
+        "hossz": "177",
+        "melyseg": "33",
+        "telepules": "Úrkút",
+        "vedettseg": "védett"
+    }
+]

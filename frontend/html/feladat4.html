@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>4. feladat</title>
+        <!--!Bootstrap-->
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+        <!--?Popper: dropdowns, popovers, tooltips-->
+        <script src="../bootstrap/js/popper.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+        <!--!CSS-->
+        <link rel="stylesheet" href="../css/index.css" />
+        <!--!JavaScript-->
+        <script src="../javascript/index.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row mb-3">
+                <h1 class="display-4 shadow-sm text-start">4. feladat</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-12 text-center">
+                    <label for="caves" class="form-label">Válasszon barlangot</label>
+                    <select id="caves" class="form-control text-center w-25 mx-auto"></select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h4" id="nev"></h2>
+                    <ul id="info"></ul>
+                </div>
+            </div>
+
+            <hr />
+
+            <div class="row">
+                <div class="col-12">
+                    <button class="w-75 d-block mx-auto btn btn-outline-primary">
+                        Kvíz kezdése
+                    </button>
+                    <div class="kviz">
+                        <label class="form-label my-2" id="valasz"></label>
+                        <input class="form-control w-75 d-block mx-auto" id="valasz" type="text" />
+                        <button class="w-75 d-block mx-auto my-2 btn btn-outline-success">
+                            Ellenőrzés
+                        </button>
+                        <div class="w-75 d-block mx-auto alert alert-success">
+                            Gratulálok eltaláltad
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            async function requestData(url) {
+                return await fetch(url).then(async (response) => {
+                    if (!response.ok) {
+                        throw new Error(`Error ${response.status}: ${response.statusText}`);
+                    }
+
+                    return await response.json();
+                });
+            }
+
+            async function fillSelect() {
+                const select = document.querySelector('select');
+                select.textContent = '';
+
+                const { result } = await requestData('/api/barlangok');
+
+                for (const cave of result) {
+                    const option = document.createElement('option');
+                    option.textContent = cave.nev;
+                    option.value = cave.azon;
+                    select.appendChild(option);
+                }
+            }
+
+            async function selectionChange(e) {
+                const { success, result } = await requestData('/api/barlang/' + e.srcElement.value);
+
+                document.querySelector('#nev').textContent = result.nev;
+                const info = document.querySelector('#info');
+                info.textContent = '';
+
+                for (const key of Object.keys(result)) {
+                    if (key === 'nev') continue;
+
+                    const li = document.createElement('li');
+                    li.textContent = `${key}: ${result[key]}`;
+                    info.appendChild(li);
+                }
+            }
+
+            document.addEventListener('DOMContentLoaded', () => {
+                document.querySelector('select').addEventListener('change', selectionChange);
+                fillSelect();
+            });
+        </script>
+    </body>
+</html>

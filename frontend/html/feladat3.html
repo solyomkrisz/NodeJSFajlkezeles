@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>3. feladat</title>
+        <!--!Bootstrap-->
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+        <!--?Popper: dropdowns, popovers, tooltips-->
+        <script src="../bootstrap/js/popper.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+        <!--!CSS-->
+        <link rel="stylesheet" href="../css/index.css" />
+        <!--!JavaScript-->
+        <script src="../javascript/index.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row mb-3">
+                <h1 class="display-4 shadow-sm text-start">3. feladat</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="w-100 text-center">
+                        <label for="telep" class="form-label">Válasszon települést</label>
+                        <select id="telep" class="form-control text-center w-25 mx-auto"></select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <table
+                        class="table table-bordered text-center table-striped align-middle shadow-sm mt-3 w-50 mx-auto"
+                    >
+                        <thead></thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            async function requestData(url) {
+                return await fetch(url).then(async (response) => {
+                    if (!response.ok) {
+                        throw new Error(`Error ${response.status}: ${response.statusText}`);
+                    }
+
+                    return await response.json();
+                });
+            }
+
+            async function createSelect() {
+                const select = document.querySelector('select');
+                const { result } = await requestData('/api/getallstat');
+                if (!result) return;
+
+                for (const item of result) {
+                    const option = document.createElement('option');
+                    option.textContent = item.megnevezes;
+                    option.value = item.telepaz;
+                    select.appendChild(option);
+                }
+            }
+
+            async function selectionChange(e) {
+                const telepaz = e.srcElement.value;
+
+                const { result } = await requestData('/api/getstat/' + telepaz);
+                const table = document.querySelector('table');
+                table.querySelector('tbody').textContent = '';
+                table.querySelector('thead').textContent = '';
+
+                const tr1 = document.createElement('tr');
+                const tr2 = document.createElement('tr');
+
+                for (const key of Object.keys(result)) {
+                    const th = document.createElement('th');
+                    th.textContent = key;
+                    tr1.appendChild(th);
+
+                    const td = document.createElement('td');
+                    td.textContent = result[key];
+                    tr2.appendChild(td);
+                }
+
+                table.querySelector('thead').appendChild(tr1);
+                table.querySelector('tbody').appendChild(tr2);
+
+                document.querySelector('#forTable').appendChild(table);
+            }
+
+            document.addEventListener('DOMContentLoaded', async () => {
+                document.querySelector('select').addEventListener('change', selectionChange);
+                await createSelect();
+            });
+        </script>
+    </body>
+</html>
