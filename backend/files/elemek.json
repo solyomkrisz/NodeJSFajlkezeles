@@ -1,0 +1,719 @@
+{
+"felfedez":[
+ {
+  "rendszam": "1",
+  "vegyjel": "H",
+  "elemneve": "hidrogén",
+  "felfedezve": "1766",
+  "felfedezo": "Cavendish,H.",
+  "gaz": "1"
+ },
+ {
+  "rendszam": "2",
+  "vegyjel": "He",
+  "elemneve": "hélium",
+  "felfedezve": "1895",
+  "felfedezo": "Ramsay,W.",
+  "gaz": "1"
+ },
+ {
+  "rendszam": "3",
+  "vegyjel": "Li",
+  "elemneve": "lítium",
+  "felfedezve": "1817",
+  "felfedezo": "Arfvedson, J.A.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "4",
+  "vegyjel": "Be",
+  "elemneve": "berillium",
+  "felfedezve": "1798",
+  "felfedezo": "Vauquelin, L.N.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "5",
+  "vegyjel": "B",
+  "elemneve": "bór",
+  "felfedezve": "1808",
+  "felfedezo": "Gay-Lussac, J.L. - Thénard, L.J.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "6",
+  "vegyjel": "C",
+  "elemneve": "szén",
+  "felfedezve": "0",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "7",
+  "vegyjel": "N",
+  "elemneve": "nitrogén",
+  "felfedezve": "1772",
+  "felfedezo": "Rutherford, D.",
+  "gaz": "1"
+ },
+ {
+  "rendszam": "8",
+  "vegyjel": "O",
+  "elemneve": "oxigén",
+  "felfedezve": "1774",
+  "felfedezo": "Priestley,J.",
+  "gaz": "1"
+ },
+ {
+  "rendszam": "9",
+  "vegyjel": "F",
+  "elemneve": "fluor",
+  "felfedezve": "1886",
+  "felfedezo": "Moissan, H.",
+  "gaz": "1"
+ },
+ {
+  "rendszam": "10",
+  "vegyjel": "Ne",
+  "elemneve": "neon",
+  "felfedezve": "1898",
+  "felfedezo": "Ramsay,W.",
+  "gaz": "1"
+ },
+ {
+  "rendszam": "11",
+  "vegyjel": "Na",
+  "elemneve": "nátrium",
+  "felfedezve": "1807",
+  "felfedezo": "Davy, H.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "12",
+  "vegyjel": "Mg",
+  "elemneve": "magnézium",
+  "felfedezve": "1808",
+  "felfedezo": "Davy, H.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "13",
+  "vegyjel": "Al",
+  "elemneve": "alumínium",
+  "felfedezve": "1825",
+  "felfedezo": "Oersted, H.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "14",
+  "vegyjel": "Si",
+  "elemneve": "szilícium",
+  "felfedezve": "1824",
+  "felfedezo": "Berzelius, J.J.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "15",
+  "vegyjel": "P",
+  "elemneve": "foszfor",
+  "felfedezve": "1669",
+  "felfedezo": "Brand, H.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "16",
+  "vegyjel": "Si",
+  "elemneve": "kén",
+  "felfedezve": "0",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "17",
+  "vegyjel": "Cl",
+  "elemneve": "klór",
+  "felfedezve": "1774",
+  "felfedezo": "Scheele, C.W.",
+  "gaz": "1"
+ },
+ {
+  "rendszam": "18",
+  "vegyjel": "Ar",
+  "elemneve": "argon",
+  "felfedezve": "1894",
+  "felfedezo": "Rayleigh, W.",
+  "gaz": "1"
+ },
+ {
+  "rendszam": "19",
+  "vegyjel": "K",
+  "elemneve": "kálium",
+  "felfedezve": "1807",
+  "felfedezo": "Davy, H.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "20",
+  "vegyjel": "Ca",
+  "elemneve": "kalcium",
+  "felfedezve": "1808",
+  "felfedezo": "Davy, H.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "21",
+  "vegyjel": "Sc",
+  "elemneve": "szkandium",
+  "felfedezve": "1879",
+  "felfedezo": "Nilson, F.L.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "22",
+  "vegyjel": "Ti",
+  "elemneve": "titán",
+  "felfedezve": "1791",
+  "felfedezo": "Gregor, W.,",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "23",
+  "vegyjel": "V",
+  "elemneve": "vanádium",
+  "felfedezve": "1801",
+  "felfedezo": "del Rio, A.M.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "24",
+  "vegyjel": "Cr",
+  "elemneve": "króm",
+  "felfedezve": "1798",
+  "felfedezo": "Vauquelin, L.N.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "25",
+  "vegyjel": "Mn",
+  "elemneve": "mangán",
+  "felfedezve": "1774",
+  "felfedezo": "Scheele, C.W.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "26",
+  "vegyjel": "Fe",
+  "elemneve": "vas",
+  "felfedezve": "0",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "27",
+  "vegyjel": "Co",
+  "elemneve": "kobalt",
+  "felfedezve": "1735",
+  "felfedezo": "Brand, H.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "28",
+  "vegyjel": "Ni ",
+  "elemneve": "nikkel",
+  "felfedezve": "1751",
+  "felfedezo": "Cronstedt, A.F.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "29",
+  "vegyjel": "Cu",
+  "elemneve": "réz",
+  "felfedezve": "0",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "30",
+  "vegyjel": "Zn",
+  "elemneve": "cink",
+  "felfedezve": "0",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "31",
+  "vegyjel": "Ga",
+  "elemneve": "gallium",
+  "felfedezve": "1875",
+  "felfedezo": "Boisbaudran, L.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "32",
+  "vegyjel": "Ge",
+  "elemneve": "germánium",
+  "felfedezve": "1886",
+  "felfedezo": "Winkler",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "33",
+  "vegyjel": "As",
+  "elemneve": "arzén",
+  "felfedezve": "0",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "34",
+  "vegyjel": "Se",
+  "elemneve": "szelén",
+  "felfedezve": "1818",
+  "felfedezo": "Berzelius, J.J.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "35",
+  "vegyjel": "Br",
+  "elemneve": "bróm",
+  "felfedezve": "1826",
+  "felfedezo": "Balard, J.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "36",
+  "vegyjel": "Kr",
+  "elemneve": "kripton",
+  "felfedezve": "1898",
+  "felfedezo": "Ramsay,W.",
+  "gaz": "1"
+ },
+ {
+  "rendszam": "37",
+  "vegyjel": "Rb",
+  "elemneve": "rubídium",
+  "felfedezve": "1861",
+  "felfedezo": "Bunsen, R. - Kirchoff, G.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "38",
+  "vegyjel": "Sr",
+  "elemneve": "stroncium",
+  "felfedezve": "1808",
+  "felfedezo": "Davy, H.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "39",
+  "vegyjel": "Y",
+  "elemneve": "ittrium",
+  "felfedezve": "1828",
+  "felfedezo": "Wöhler,F.,",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "40",
+  "vegyjel": "Zr",
+  "elemneve": "cirkónium",
+  "felfedezve": "1789",
+  "felfedezo": "Klaproth, M.H.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "41",
+  "vegyjel": "Nb",
+  "elemneve": "nióbium",
+  "felfedezve": "1801",
+  "felfedezo": "Hatchett, Ch.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "42",
+  "vegyjel": "Mo",
+  "elemneve": "molibdén",
+  "felfedezve": "1778",
+  "felfedezo": "Scheele, C.W.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "44",
+  "vegyjel": "Ru",
+  "elemneve": "ruténium",
+  "felfedezve": "1844",
+  "felfedezo": "Klauss, K.K.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "45",
+  "vegyjel": "Rh",
+  "elemneve": "ródium",
+  "felfedezve": "1804",
+  "felfedezo": "Wollaston, W.H.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "46",
+  "vegyjel": "Pd",
+  "elemneve": "palládium",
+  "felfedezve": "1803",
+  "felfedezo": "Wollaston, W.H.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "47",
+  "vegyjel": "Ag",
+  "elemneve": "ezüst",
+  "felfedezve": "0",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "48",
+  "vegyjel": "Cd",
+  "elemneve": "kadmium",
+  "felfedezve": "1817",
+  "felfedezo": "Stromeyer, F.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "49",
+  "vegyjel": "In",
+  "elemneve": "indium",
+  "felfedezve": "1863",
+  "felfedezo": "Reich, F.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "50",
+  "vegyjel": "Sn",
+  "elemneve": "ón",
+  "felfedezve": "0",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "51",
+  "vegyjel": "Sb",
+  "elemneve": "antimon",
+  "felfedezve": "0",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "52",
+  "vegyjel": "Te",
+  "elemneve": "tellúr",
+  "felfedezve": "1783",
+  "felfedezo": "Müller Ferenc",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "53",
+  "vegyjel": "I",
+  "elemneve": "jód",
+  "felfedezve": "1811",
+  "felfedezo": "Courtois, B.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "54",
+  "vegyjel": "Xe",
+  "elemneve": "xenon",
+  "felfedezve": "1898",
+  "felfedezo": "Ramsay,W.",
+  "gaz": "1"
+ },
+ {
+  "rendszam": "55",
+  "vegyjel": "Cs",
+  "elemneve": "cézium",
+  "felfedezve": "1860",
+  "felfedezo": "Bunsen, R. - Kirchoff, G.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "56",
+  "vegyjel": "Ba",
+  "elemneve": "bárium",
+  "felfedezve": "1808",
+  "felfedezo": "Davy, H.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "57",
+  "vegyjel": "La",
+  "elemneve": "lantán",
+  "felfedezve": "1839",
+  "felfedezo": "Mosander, C.G.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "58",
+  "vegyjel": "Ce",
+  "elemneve": "cérium",
+  "felfedezve": "1803",
+  "felfedezo": "Berzelius, J.J.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "59",
+  "vegyjel": "Pr",
+  "elemneve": "prazeodínium",
+  "felfedezve": "1885",
+  "felfedezo": "Auer, W.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "60",
+  "vegyjel": "Nd",
+  "elemneve": "neodínium",
+  "felfedezve": "1885",
+  "felfedezo": "Auer, W.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "61",
+  "vegyjel": "Pr",
+  "elemneve": "promécium",
+  "felfedezve": "1945",
+  "felfedezo": "Coryell, C.D.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "62",
+  "vegyjel": "Sm",
+  "elemneve": "szamárium",
+  "felfedezve": "1879",
+  "felfedezo": "Boisbaudran, L.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "63",
+  "vegyjel": "Eu",
+  "elemneve": "európium",
+  "felfedezve": "1901",
+  "felfedezo": "Demarcay, E.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "64",
+  "vegyjel": "Gd",
+  "elemneve": "gadolínium",
+  "felfedezve": "1880",
+  "felfedezo": "Marignac, J.C.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "65",
+  "vegyjel": "Tb",
+  "elemneve": "terbium",
+  "felfedezve": "1843",
+  "felfedezo": "Mosander, C.G.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "66",
+  "vegyjel": "Dy",
+  "elemneve": "diszprózium",
+  "felfedezve": "1886",
+  "felfedezo": "Boisbaudran, L.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "67",
+  "vegyjel": "Ho",
+  "elemneve": "holmium",
+  "felfedezve": "1879",
+  "felfedezo": "Cléve, Th.P.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "68",
+  "vegyjel": "Er",
+  "elemneve": "erbium",
+  "felfedezve": "1843",
+  "felfedezo": "Mosander, C.G.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "69",
+  "vegyjel": "Tm",
+  "elemneve": "túlium",
+  "felfedezve": "1879",
+  "felfedezo": "Cléve, Th.P.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "70",
+  "vegyjel": "Yb",
+  "elemneve": "itterbium",
+  "felfedezve": "1878",
+  "felfedezo": "Marignac, J.C.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "71",
+  "vegyjel": "Lu",
+  "elemneve": "lutécium",
+  "felfedezve": "1907",
+  "felfedezo": "Urbain, G. - Auer, W.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "72",
+  "vegyjel": "Hf",
+  "elemneve": "hafnium",
+  "felfedezve": "1922",
+  "felfedezo": "Hevesy György",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "73",
+  "vegyjel": "Ta",
+  "elemneve": "tantál",
+  "felfedezve": "1802",
+  "felfedezo": "Ekeberg, A.G.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "74",
+  "vegyjel": "W",
+  "elemneve": "volfrám",
+  "felfedezve": "1783",
+  "felfedezo": "dElhuyar, F.és J.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "75",
+  "vegyjel": "Re",
+  "elemneve": "rénium",
+  "felfedezve": "1925",
+  "felfedezo": "Noddack, W.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "76",
+  "vegyjel": "Os",
+  "elemneve": "ozmium",
+  "felfedezve": "1803",
+  "felfedezo": "Tennant, Ch.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "77",
+  "vegyjel": "Ir",
+  "elemneve": "irídium",
+  "felfedezve": "1803",
+  "felfedezo": "Tennant, Ch.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "78",
+  "vegyjel": "Pt",
+  "elemneve": "platina",
+  "felfedezve": "1735",
+  "felfedezo": "Ulloa",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "79",
+  "vegyjel": "Au",
+  "elemneve": "arany",
+  "felfedezve": "0",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "80",
+  "vegyjel": "Hg",
+  "elemneve": "higany",
+  "felfedezve": "0",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "81",
+  "vegyjel": "Tl",
+  "elemneve": "tallium",
+  "felfedezve": "1861",
+  "felfedezo": "Crookes, W.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "82",
+  "vegyjel": "Pb",
+  "elemneve": "ólom",
+  "felfedezve": "0",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "83",
+  "vegyjel": "Bi",
+  "elemneve": "bizmut",
+  "felfedezve": "0",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "84",
+  "vegyjel": "Po",
+  "elemneve": "polónium",
+  "felfedezve": "1898",
+  "felfedezo": "Curie, M. és P.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "85",
+  "vegyjel": "At",
+  "elemneve": "asztácium",
+  "felfedezve": "1940",
+  "felfedezo": "Corson, D.R.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "86",
+  "vegyjel": "Rn",
+  "elemneve": "radon",
+  "felfedezve": "1900",
+  "felfedezo": "Dorn, F.E.",
+  "gaz": "1"
+ },
+ {
+  "rendszam": "87",
+  "vegyjel": "Fr",
+  "elemneve": "francium",
+  "felfedezve": "1939",
+  "felfedezo": "Perey, M.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "88",
+  "vegyjel": "Ra",
+  "elemneve": "rádium",
+  "felfedezve": "1898",
+  "felfedezo": "Curie, M. és P.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "89",
+  "vegyjel": "Ac",
+  "elemneve": "aktínium",
+  "felfedezve": "1899",
+  "felfedezo": "Debierne, A.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "90",
+  "vegyjel": "Th",
+  "elemneve": "tórium",
+  "felfedezve": "1828",
+  "felfedezo": "Berzelius, J.J.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "91",
+  "vegyjel": "Pa",
+  "elemneve": "protaktínium",
+  "felfedezve": "1917",
+  "felfedezo": "Hahn, O., - Meitner, L.",
+  "gaz": "0"
+ },
+ {
+  "rendszam": "92",
+  "vegyjel": "U",
+  "elemneve": "urán",
+  "felfedezve": "1789",
+  "felfedezo": "Klaproth, M.H.",
+  "gaz": "0"
+ }
+]
+}

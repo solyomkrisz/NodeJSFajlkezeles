@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>4. feladat</title>
+        <!--!Bootstrap-->
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+        <!--?Popper: dropdowns, popovers, tooltips-->
+        <script src="../bootstrap/js/popper.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+        <!--!CSS-->
+        <link rel="stylesheet" href="../css/index.css" />
+        <!--!JavaScript-->
+        <script src="../javascript/index.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row mb-3">
+                <h1 class="display-4 shadow-sm text-start">5. feladat</h1>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <table
+                        class="table table-striped table-bordered text-center align-middle shadow-sm mt-3 w-50 mx-auto"
+                    >
+                        <thead>
+                            <tr>
+                                <th>rendszam</th>
+                                <th>vegyjel</th>
+                                <th>elemneve</th>
+                                <th>felfedezve</th>
+                                <th>gaz</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function requestData(url) {
+                return fetch(url).then(async (response) => {
+                    if (!response.ok) {
+                        throw new Error(`Error ${response.status}: ${response.statusText}`);
+                    }
+
+                    return await response.json();
+                });
+            }
+
+            async function task1() {
+                const { result } = await requestData('/api/getallelem');
+                console.log(result);
+            }
+
+            async function task2() {
+                const { result } = await requestData('/api/ismeretlen');
+                const tbody = document.querySelector('table>tbody');
+                tbody.textContent = '';
+
+                for (const elem of result) {
+                    let tr = document.createElement('tr');
+                    for (const key of Object.keys(elem)) {
+                        let td = document.createElement('td');
+                        td.textContent = elem[key];
+                        tr.appendChild(td);
+                    }
+                    tbody.appendChild(tr);
+                }
+            }
+
+            document.addEventListener('DOMContentLoaded', async () => {
+                await task1();
+                await task2();
+            });
+        </script>
+    </body>
+</html>

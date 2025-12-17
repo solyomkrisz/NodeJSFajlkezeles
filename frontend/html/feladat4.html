@@ -42,14 +42,19 @@
                         Kvíz kezdése
                     </button>
                     <div class="kviz">
-                        <label class="form-label my-2" id="valasz"></label>
+                        <label
+                            class="text-center w-100 form-label my-2"
+                            for="valasz"
+                            id="kerdes"
+                        ></label>
                         <input class="form-control w-75 d-block mx-auto" id="valasz" type="text" />
-                        <button class="w-75 d-block mx-auto my-2 btn btn-outline-success">
+                        <button
+                            class="w-75 d-block mx-auto my-2 btn btn-outline-success"
+                            id="ellenorzes"
+                        >
                             Ellenőrzés
                         </button>
-                        <div class="w-75 d-block mx-auto alert alert-success">
-                            Gratulálok eltaláltad
-                        </div>
+                        <div id="response" class="w-75 d-block mx-auto alert"></div>
                     </div>
                 </div>
             </div>
@@ -96,9 +101,39 @@
                 }
             }
 
+            const QAs = [
+                ['Mi a neve a leghosszabb barlangnak?', 'leghosszabb'],
+                ['Milyen mély a legmélyebb barlang?', 'legmelyebb'],
+                ['Hány barlang adata van eltárolva?', 'barlangokSzama'],
+                ['Hány fokozottan védett barlang van?', 'fokozottanVedett']
+            ];
+
+            const QA = QAs[Math.floor(Math.random() * QAs.length)];
+
+            function showRandomQuestion() {
+                document.querySelector('#kerdes').textContent = QA[0];
+            }
+
+            async function checkAnswer() {
+                const a = document.querySelector('#valasz').value;
+                const s = (await requestData('/api/stat')).result;
+                const c = document.querySelector('#response');
+                if (a === s[QA[1]]) {
+                    c.textContent = 'Gratulálok eltaláltad';
+                    c.classList.add('alert-success');
+                    c.classList.remove('alert-danger');
+                } else {
+                    c.textContent = 'Helyes válasz: ' + s[QA[1]];
+                    c.classList.remove('alert-success');
+                    c.classList.add('alert-danger');
+                }
+            }
+
             document.addEventListener('DOMContentLoaded', () => {
                 document.querySelector('select').addEventListener('change', selectionChange);
                 fillSelect();
+                showRandomQuestion();
+                document.querySelector('#ellenorzes').addEventListener('click', checkAnswer);
             });
         </script>
     </body>

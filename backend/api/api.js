@@ -22,6 +22,11 @@ const { telepules: statistics } = JSON.parse(rawJSON);
 rawJSON = fs.readFileSync(path.join(__dirname, '../files/barlangok.json'), 'utf-8');
 const caves = JSON.parse(rawJSON);
 
+//?5. feladat:
+rawJSON = fs.readFileSync(path.join(__dirname, '../files/elemek.json'), 'utf-8');
+const { felfedez: elements } = JSON.parse(rawJSON);
+const ismeretlen = elements.filter((i) => !Number(i.felfedezve));
+
 const storage = multer.diskStorage({
     destination: (request, file, callback) => {
         callback(null, path.join(__dirname, '../uploads'));
@@ -215,12 +220,38 @@ router.get('/stat', (request, response) => {
     response.json({
         success: true,
         result: {
-            leghosszabb: leghossz.nev,
-            legmelyebb: legmely.melyseg,
-            barlangokSzama: caves.length,
-            fokozottanVedettDb
+            leghosszabb: `${leghossz.nev}`,
+            legmelyebb: `${legmely.melyseg}`,
+            barlangokSzama: `${caves.length}`,
+            fokozottanVedett: `${fokozottanVedettDb}`
         }
     });
+});
+
+//?5. feladat:
+router.get('/getallelem', (request, response) => {
+    response.status(200).json({
+        success: true,
+        result: elements
+    });
+});
+
+router.get('/ismeretlen', (request, response) => {
+    response.status(200).json({ success: true, result: ismeretlen });
+});
+
+router.get('/getelem/:elemneve', (request, response) => {
+    const elemneve = request.params.elemneve;
+    let j = 0;
+    while (j < elements.length && elements.elemneve != elemneve) j++;
+    if (j < elements.length) {
+        response.status(200).json({
+            success: true,
+            result: elements[j]
+        });
+    } else {
+        response.status(200).json({ success: false });
+    }
 });
 
 module.exports = router;
