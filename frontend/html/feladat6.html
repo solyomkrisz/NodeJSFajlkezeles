@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>6. feladat</title>
+        <!--!Bootstrap-->
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+        <!--?Popper: dropdowns, popovers, tooltips-->
+        <script src="../bootstrap/js/popper.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+        <!--!CSS-->
+        <link rel="stylesheet" href="../css/index.css" />
+        <!--!JavaScript-->
+        <script src="../javascript/index.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row mb-3">
+                <h1 class="display-4 shadow-sm text-start">6. feladat</h1>
+            </div>
+        </div>
+
+        <script>
+            function requestData(url) {
+                return fetch(url).then(async (response) => {
+                    if (!response.ok) {
+                        throw new Error(`Error ${response.status}: ${response.statusText}`);
+                    }
+
+                    return await response.json();
+                });
+            }
+        </script>
+    </body>
+</html>

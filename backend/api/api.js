@@ -27,6 +27,10 @@ rawJSON = fs.readFileSync(path.join(__dirname, '../files/elemek.json'), 'utf-8')
 const { felfedez: elements } = JSON.parse(rawJSON);
 const ismeretlen = elements.filter((i) => !Number(i.felfedezve));
 
+//?6. feladat:
+rawJSON = fs.readFileSync(path.join(__dirname, '../files/orszagok.json'), 'utf-8');
+const { orszagok: countries } = JSON.parse(rawJSON);
+
 const storage = multer.diskStorage({
     destination: (request, file, callback) => {
         callback(null, path.join(__dirname, '../uploads'));
@@ -243,7 +247,7 @@ router.get('/ismeretlen', (request, response) => {
 router.get('/getelem/:elemneve', (request, response) => {
     const elemneve = request.params.elemneve;
     let j = 0;
-    while (j < elements.length && elements.elemneve != elemneve) j++;
+    while (j < elements.length && elements[j].elemneve != elemneve) j++;
     if (j < elements.length) {
         response.status(200).json({
             success: true,
@@ -252,6 +256,121 @@ router.get('/getelem/:elemneve', (request, response) => {
     } else {
         response.status(200).json({ success: false });
     }
+});
+
+//?6. feladat:
+// 1.
+router.get('/miafovarosa/:orszag', (request, response) => {
+    const orszag = request.params.orszag;
+    let j = 0;
+    while (j < countries.length && countries[j].orszag != orszag) j++;
+    if (j < countries.length) {
+        response.status(200).json({
+            success: true,
+            result: countries[j].fovaros
+        });
+    } else {
+        response.status(200).json({ success: false });
+    }
+});
+
+// 2.
+router.get('/melyikorszagfovarosa/:fovaros', (request, response) => {
+    const fovaros = request.params.fovaros;
+    let j = 0;
+    while (j < countries.length && countries[j].fovaros != fovaros) j++;
+    if (j < countries.length) {
+        response.status(200).json({
+            success: true,
+            result: countries[j].orszag
+        });
+    } else {
+        response.status(200).json({ success: false });
+    }
+});
+
+// 3.
+router.get('/melyikorszagautojele/:jel', (request, response) => {
+    const { jel } = request.params;
+    let j = 0;
+    while (j < countries.length && countries[j].autojel != jel) j++;
+    if (j < countries.length) {
+        response.status(200).json({ success: true, result: countries[j].orszag });
+    } else {
+        response.status(200).json({ success: false });
+    }
+});
+
+// 4.
+router.get('/melyikorszagpenzenekjele/:jel', (request, response) => {
+    const { jel } = request.params;
+    let j = 0;
+    while (j < countries.length && countries[j].penzjel != jel) j++;
+    if (j < countries.length) {
+        response.status(200).json({ success: true, result: countries[j].orszag });
+    } else {
+        response.status(200).json({ success: false });
+    }
+});
+
+// 5.
+router.get('/hanyanlaknakmaltan', (request, response) => {
+    let j = 0;
+    while (j < countries.length && countries[j].orszag != 'MÁLTA') j++;
+    if (j < countries.length) {
+        response.status(200).json({ success: true, result: countries[j].nepesseg });
+    } else {
+        response.status(200).json({ success: false });
+    }
+});
+
+// 6.
+router.get('/mennyijapannepsurusege', (request, response) => {
+    let j = 0;
+    while (j < countries.length && countries[j].orszag != 'JAPÁN') j++;
+    if (j < countries.length) {
+        response
+            .status(200)
+            .json({ success: true, result: (countries[j].nepesseg / countries[j].terulet) * 1000 });
+    } else {
+        response.status(200).json({ success: false });
+    }
+});
+
+// 7.
+router.get('/hanylakosanvanafoldnek', (request, response) => {
+    let c = 0;
+    for (const country of countries) {
+        c += Number(country.nepesseg);
+    }
+    response.status(200).json({ success: true, result: c });
+});
+
+// 8.
+router.get('/orszagokteruleteosszesen', (request, response) => {
+    let c = 0;
+    for (const country of countries) {
+        c += Number(country.terulet);
+    }
+    response.status(200).json({ success: true, result: c });
+});
+
+// 9.
+router.get('/orszagokatlagosnepessege', (request, response) => {
+    let osszesNepesseg = 0;
+    for (const country of countries) {
+        osszesNepesseg += Number(country.nepesseg);
+    }
+    response.status(200).json({ success: true, result: osszesNepesseg / countries.length });
+});
+
+// 10.
+router.get('/orszagokatlagosterulete', (request, response) => {
+    let osszesTerulet = 0;
+    for (const country of countries) {
+        osszesTerulet += Number(country.terulet);
+    }
+    response.status(200).json({ success: true, result: osszesTerulet / countries.length });
 });
 
 module.exports = router;
