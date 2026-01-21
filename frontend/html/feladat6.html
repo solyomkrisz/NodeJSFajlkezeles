@@ -19,6 +19,42 @@
             <div class="row mb-3">
                 <h1 class="display-4 shadow-sm text-start">6. feladat</h1>
             </div>
+            <div class="row">
+                <dl>
+                    <dt>Mi MADAGASZKÁR fővárosa?</dt>
+                    <dd id="_0"></dd>
+
+                    <dt>Melyik ország fővárosa OUAGADOUGOU?</dt>
+                    <dd id="_1"></dd>
+
+                    <dt>Melyik ország autójele a TT?</dt>
+                    <dd id="_2"></dd>
+
+                    <dt>Melyik ország pénzének jele az SGD?</dt>
+                    <dd id="_3"></dd>
+
+                    <dt>Hányan laknak Máltán?</dt>
+                    <dd>-</dd>
+
+                    <dt>Mennyi Japán népsűrűsége?</dt>
+                    <dd>-</dd>
+
+                    <dt>Hány lakosa van a Földnek?</dt>
+                    <dd>-</dd>
+
+                    <dt>Hány lakosa van a Földnek?</dt>
+                    <dd>-</dd>
+
+                    <dt>Mennyi az országok területe összesen?</dt>
+                    <dd>-</dd>
+
+                    <dt>Mennyi az országok átlagos népessége?</dt>
+                    <dd>-</dd>
+
+                    <dt>Mennyi az országok átlagos területe?</dt>
+                    <dd>-</dd>
+                </dl>
+            </div>
         </div>
 
         <script>
@@ -31,6 +67,18 @@
                     return await response.json();
                 });
             }
+
+            async function answerQuestion(id, url) {
+                const result = await requestData(url);
+                if (!result.success) return;
+                document.querySelector('#' + id).textContent = result.result;
+            }
+
+            document.addEventListener('DOMContentLoaded', async () => {
+                await answerQuestion('_0', '/api/miafovarosa/MADAGASZKÁR');
+                await answerQuestion('_1', '/api/melyikorszagfovarosa/OUAGADOUGOU');
+                await answerQuestion('_2', '/api/melyikorszagautojele/TT');
+            });
         </script>
     </body>
 </html>
