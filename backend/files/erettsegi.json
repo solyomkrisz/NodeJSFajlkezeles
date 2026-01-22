@@ -1,0 +1,177 @@
+[
+    {
+        "Nev": "Kovacs Bela",
+        "Szovegszerkesztes": 5,
+        "Adatbaziskezeles": 3,
+        "Programozas": 42,
+        "Szobeli": 14
+    },
+    {
+        "Nev": "Szabo Anna",
+        "Szovegszerkesztes": 37,
+        "Adatbaziskezeles": 32,
+        "Programozas": 48,
+        "Szobeli": 29
+    },
+    {
+        "Nev": "Toth Mate",
+        "Szovegszerkesztes": 12,
+        "Adatbaziskezeles": 10,
+        "Programozas": 25,
+        "Szobeli": 2
+    },
+    {
+        "Nev": "Nagy Zsuzsa",
+        "Szovegszerkesztes": 29,
+        "Adatbaziskezeles": 14,
+        "Programozas": 39,
+        "Szobeli": 27
+    },
+    {
+        "Nev": "Farkas Levente",
+        "Szovegszerkesztes": 3,
+        "Adatbaziskezeles": 2,
+        "Programozas": 7,
+        "Szobeli": 16
+    },
+    {
+        "Nev": "Molnar Daniel",
+        "Szovegszerkesztes": 18,
+        "Adatbaziskezeles": 21,
+        "Programozas": 12,
+        "Szobeli": 4
+    },
+    {
+        "Nev": "Balogh Emese",
+        "Szovegszerkesztes": 34,
+        "Adatbaziskezeles": 28,
+        "Programozas": 31,
+        "Szobeli": 1
+    },
+    {
+        "Nev": "Varga Laszlo",
+        "Szovegszerkesztes": 40,
+        "Adatbaziskezeles": 30,
+        "Programozas": 50,
+        "Szobeli": 30
+    },
+    {
+        "Nev": "Kiss Noemi",
+        "Szovegszerkesztes": 20,
+        "Adatbaziskezeles": 10,
+        "Programozas": 4,
+        "Szobeli": 25
+    },
+    {
+        "Nev": "Horvath Gergo",
+        "Szovegszerkesztes": 16,
+        "Adatbaziskezeles": 34,
+        "Programozas": 45,
+        "Szobeli": 19
+    },
+    {
+        "Nev": "Papp Lilla",
+        "Szovegszerkesztes": 7,
+        "Adatbaziskezeles": 5,
+        "Programozas": 2,
+        "Szobeli": 11
+    },
+    {
+        "Nev": "Takacs Gabor",
+        "Szovegszerkesztes": 31,
+        "Adatbaziskezeles": 22,
+        "Programozas": 27,
+        "Szobeli": 17
+    },
+    {
+        "Nev": "Feher Eszter",
+        "Szovegszerkesztes": 14,
+        "Adatbaziskezeles": 8,
+        "Programozas": 6,
+        "Szobeli": 3
+    },
+    {
+        "Nev": "Toth Csaba",
+        "Szovegszerkesztes": 2,
+        "Adatbaziskezeles": 30,
+        "Programozas": 11,
+        "Szobeli": 12
+    },
+    {
+        "Nev": "Nagy Veronika",
+        "Szovegszerkesztes": 33,
+        "Adatbaziskezeles": 27,
+        "Programozas": 41,
+        "Szobeli": 28
+    },
+    {
+        "Nev": "Szilagyi Zoltan",
+        "Szovegszerkesztes": 4,
+        "Adatbaziskezeles": 18,
+        "Programozas": 36,
+        "Szobeli": 7
+    },
+    {
+        "Nev": "Lakatos Ivett",
+        "Szovegszerkesztes": 23,
+        "Adatbaziskezeles": 21,
+        "Programozas": 13,
+        "Szobeli": 0
+    },
+    {
+        "Nev": "Kerekes Andor",
+        "Szovegszerkesztes": 36,
+        "Adatbaziskezeles": 35,
+        "Programozas": 44,
+        "Szobeli": 26
+    },
+    {
+        "Nev": "Bodnar Levente",
+        "Szovegszerkesztes": 8,
+        "Adatbaziskezeles": 12,
+        "Programozas": 29,
+        "Szobeli": 18
+    },
+    {
+        "Nev": "Simon Katalin",
+        "Szovegszerkesztes": 30,
+        "Adatbaziskezeles": 29,
+        "Programozas": 48,
+        "Szobeli": 27
+    },
+    {
+        "Nev": "Meszaros Istvan",
+        "Szovegszerkesztes": 28,
+        "Adatbaziskezeles": 9,
+        "Programozas": 8,
+        "Szobeli": 14
+    },
+    {
+        "Nev": "Illes Tamara",
+        "Szovegszerkesztes": 10,
+        "Adatbaziskezeles": 3,
+        "Programozas": 5,
+        "Szobeli": 22
+    },
+    {
+        "Nev": "Orsos Gergely",
+        "Szovegszerkesztes": 39,
+        "Adatbaziskezeles": 30,
+        "Programozas": 46,
+        "Szobeli": 9
+    },
+    {
+        "Nev": "Pataki Laura",
+        "Szovegszerkesztes": 12,
+        "Adatbaziskezeles": 25,
+        "Programozas": 37,
+        "Szobeli": 28
+    },
+    {
+        "Nev": "Gulyas Attila",
+        "Szovegszerkesztes": 23,
+        "Adatbaziskezeles": 15,
+        "Programozas": 33,
+        "Szobeli": 13
+    }
+]

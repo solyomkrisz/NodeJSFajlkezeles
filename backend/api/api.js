@@ -31,6 +31,10 @@ const ismeretlen = elements.filter((i) => !Number(i.felfedezve));
 rawJSON = fs.readFileSync(path.join(__dirname, '../files/orszagok.json'), 'utf-8');
 const { orszagok: countries } = JSON.parse(rawJSON);
 
+//?7. feladat:
+rawJSON = fs.readFileSync(path.join(__dirname, '../files/erettsegi.json'), 'utf-8');
+const erettsegik = JSON.parse(rawJSON);
+
 const storage = multer.diskStorage({
     destination: (request, file, callback) => {
         callback(null, path.join(__dirname, '../uploads'));
@@ -371,6 +375,48 @@ router.get('/orszagokatlagosterulete', (request, response) => {
         osszesTerulet += Number(country.terulet);
     }
     response.status(200).json({ success: true, result: osszesTerulet / countries.length });
+});
+
+//?7. feladat:
+router.get('/getvizsgazok', (request, response) => {
+    response.status(200).json({ success: true, vizsgazok: erettsegik });
+});
+
+erettsegik.forEach((e) => {
+    e.Szovegszerkesztes = Number(e.Szovegszerkesztes);
+    e.Adatbaziskezeles = Number(e.Adatbaziskezeles);
+    e.Programozas = Number(e.Programozas);
+    e.Szobeli = Number(e.Szobeli);
+});
+
+let eredmenyek = [];
+
+function getOsztalyzat(szazlek) {
+    if (szazlek >= 60) {
+        return 5;
+    } else if (szazlek >= 47) {
+        return 4;
+    } else if (szazlek >= 33) {
+        return 3;
+    } else if (szazlek >= 25) {
+        return 2;
+    } else return 1;
+}
+
+erettsegik.forEach((e) => {
+    const irasbeliPont = e.Szovegszerkesztes + e.Adatbaziskezeles + e.Programozas;
+    const szobeliPont = e.Szobeli;
+    eredmenyek.push({
+        Nev: e.Nev,
+        Osszpont: irasbeliPont + szobeliPont,
+        Irasbeli_Szazalek: Math.round((irasbeliPont / 120) * 100),
+        szobeli_Szazalek: Math.round((szobeliPont / 30) * 100),
+        Osztalyzat: getOsztalyzat(((irasbeliPont + szobeliPont) / 150) * 100)
+    });
+});
+
+router.get('/getosztalyzatok', (request, response) => {
+    response.status(200).json({ success: true, eredmenyek });
 });
 
 module.exports = router;
