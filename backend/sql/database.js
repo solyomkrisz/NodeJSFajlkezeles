@@ -4,7 +4,7 @@ const pool = mysql.createPool({
     host: '127.0.0.1',
     user: 'root',
     password: '',
-    database: 'exampledb',
+    database: 'voidvanguard',
     waitForConnections: true,
     connectionLimit: 10,
     queueLimit: 0
@@ -12,7 +12,7 @@ const pool = mysql.createPool({
 
 //!SQL Queries
 async function selectall() {
-    const query = 'SELECT * FROM exampletable;';
+    const query = 'SELECT * FROM users;';
     const [rows] = await pool.execute(query);
     return rows;
 }

@@ -3,6 +3,12 @@ const router = express.Router();
 const database = require('../sql/database.js');
 const fs = require('fs');
 
+/** */
+router.get('/users', async (request, response) => {
+    const result = await database.selectall();
+    response.status(200).json({ result: result });
+});
+
 //!Multer
 const multer = require('multer'); //?npm install multer
 const path = require('path');
