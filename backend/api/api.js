@@ -425,4 +425,30 @@ router.get('/getosztalyzatok', (request, response) => {
     response.status(200).json({ success: true, eredmenyek });
 });
 
+//?Gyakorlas
+const adatok = [];
+
+router.get('/leker', (request, response) => {
+    response.status(200).json({ adatok });
+});
+
+router.get('/textFile', async (request, response) => {
+    const f = await fs.promises.readFile(path.join(__dirname, '../files/adatok.txt'), 'utf-8');
+    response.status(200).json({ adat: f });
+});
+
+router.post('/feltolt', async (request, response) => {
+    adatok.push(request.body.adat);
+
+    await fs.promises.unlink(path.join(__dirname, '../files/adatok.txt'));
+
+    // await fs.promises.appendFile(
+    //     path.join(__dirname, '../files/adatok.txt'),
+    //     request.body.adat + '\n',
+    //     'utf-8'
+    // );
+
+    response.status(200).json({ adatok });
+});
+
 module.exports = router;

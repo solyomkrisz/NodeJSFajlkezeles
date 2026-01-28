@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gyakorlas</title>
+        <!--!Bootstrap-->
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+        <!--?Popper: dropdowns, popovers, tooltips-->
+        <script src="../bootstrap/js/popper.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+        <!--!CSS-->
+        <link rel="stylesheet" href="../css/index.css" />
+        <!--!JavaScript-->
+        <script src="../javascript/index.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <h1 class="display-4 shadow-sm text-start">Gyakorlas</h1>
+            </div>
+            <div class="row">
+                <form>
+                    <input autocomplete="off" id="mezo" type="text" />
+                    <button>Feltölt</button>
+                </form>
+
+                <button id="lekerdezes">Adatok megjelenítése</button>
+                <div id="list"></div>
+            </div>
+        </div>
+
+        <script type="module">
+            const input = document.querySelector('#mezo');
+            const list = document.querySelector('#list');
+
+            document.querySelector('form').addEventListener('submit', async (e) => {
+                e.preventDefault();
+
+                const result = await fetch('/api/feltolt', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ adat: input.value })
+                })
+                    .then((response) => {
+                        if (!response.ok) {
+                            throw new Error(`Error ${response.status}: ${response.statusText}`);
+                        }
+
+                        return response.json();
+                    })
+                    .then((data) => data);
+            });
+
+            document.querySelector('#lekerdezes').addEventListener('click', async () => {
+                list.textContent = '';
+
+                const { adatok } = await fetch('/api/leker')
+                    .then((response) => {
+                        if (!response.ok) {
+                            throw new Error(`Error ${response.status}: ${response.statusText}`);
+                        }
+
+                        return response.json();
+                    })
+                    .then((data) => data);
+
+                for (const item of adatok) {
+                    const p = document.createElement('p');
+                    p.textContent = item;
+                    list.appendChild(p);
+                }
+            });
+        </script>
+    </body>
+</html>

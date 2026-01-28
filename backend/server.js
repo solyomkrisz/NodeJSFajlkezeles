@@ -74,6 +74,11 @@ router.get('/hetedikFeladat', (request, response) => {
     response.sendFile(path.join(__dirname, '../frontend/html/feladat7.html'));
 });
 
+//?Gyakorlás:
+router.get('/gyakorlas', (request, response) => {
+    response.sendFile(path.join(__dirname, '../frontend/html/gyakorlas.html'));
+});
+
 //!API endpoints
 app.use('/', router);
 const endpoints = require('./api/api.js');
