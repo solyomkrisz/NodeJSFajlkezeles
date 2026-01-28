@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>7. feladat</title>
+        <!--!Bootstrap-->
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+        <!--?Popper: dropdowns, popovers, tooltips-->
+        <script src="../bootstrap/js/popper.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+        <!--!CSS-->
+        <link rel="stylesheet" href="../css/index.css" />
+        <!--!JavaScript-->
+        <script src="../javascript/index.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <h1 class="display-4 shadow-sm text-start">7. feladat</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <select class="form-control w-100 mt-2 mb-2"></select>
+                    <div id="vizsgazoAdatok" class="card">
+                        <div class="card-body">
+                            <p id="nincsKivalasztas" class="fw-bold mb-1 d-block text-center">
+                                Még nincs kiválasztott vizsgázó
+                            </p>
+                            <span
+                                id="Nev"
+                                class="d-block fw-bold fs-5 text-center d-none mb-2"
+                            ></span>
+                            <ul class="list-group d-none">
+                                <li id="Szovegszerkesztes" class="list-group-item"></li>
+                                <li id="Adatbaziskezeles" class="list-group-item"></li>
+                                <li id="Programozas" class="list-group-item"></li>
+                                <li id="Szobeli" class="list-group-item"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8">
+                    <button class="btn btn-outline-secondary w-100 mt-2">
+                        Vizsgaeredmények megjelenítése
+                    </button>
+                    <table class="table text-center">
+                        <thead>
+                            <tr>
+                                <th>Nev</th>
+                                <th>Osszpont</th>
+                                <th>Irasbeli_Szazalek</th>
+                                <th>szobeli_Szazalek</th>
+                                <th>Osztalyzat</th>
+                            </tr>
+                        </thead>
+                        <tbody id="eredmenyek"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <script type="module">
+            const select = document.querySelector('select');
+            select.addEventListener('change', displayInfo);
+            const vizsgazoAdatokCard = document.querySelector('#vizsgazoAdatok');
+            const nincsKivalasztasSpan = vizsgazoAdatokCard.querySelector('#nincsKivalasztas');
+            const vizsgazoAdatokNev = vizsgazoAdatokCard.querySelector('#Nev');
+            const vizsgazoAdatokUl = vizsgazoAdatokCard.querySelector('ul');
+            const eredmenyekTbody = document.querySelector('#eredmenyek');
+            const eredmenyMegjelenitoButton = document.querySelector('button');
+
+            eredmenyMegjelenitoButton.addEventListener('click', displayResults);
+
+            function _fetch(url) {
+                return fetch(url).then(async (response) => {
+                    if (!response.ok) {
+                        throw new Error(`Error ${response.status}: ${response.statusText}`);
+                    }
+
+                    return await response.json();
+                });
+            }
+
+            function displayInfo(e) {
+                const data = JSON.parse(e.srcElement.options[e.srcElement.selectedIndex].value);
+
+                nincsKivalasztasSpan.classList.add('d-none');
+                vizsgazoAdatokNev.classList.remove('d-none');
+                vizsgazoAdatokUl.classList.remove('d-none');
+
+                vizsgazoAdatokNev.textContent = data.Nev;
+
+                for (const key in data) {
+                    if (key === 'Nev') continue;
+                    vizsgazoAdatokCard.querySelector(`#${key}`).textContent =
+                        `${key}: ${data[key]}`;
+                }
+            }
+
+            async function displayResults() {
+                eredmenyekTbody.textContent = '';
+                const { success, eredmenyek } = await _fetch('/api/getosztalyzatok');
+
+                for (const item of eredmenyek) {
+                    const tr = document.createElement('tr');
+                    for (const key in item) {
+                        const td = document.createElement('td');
+                        td.textContent = item[key];
+                        tr.appendChild(td);
+                    }
+                    eredmenyekTbody.appendChild(tr);
+                }
+            }
+
+            async function createSelectionMenu() {
+                select.textContent = '';
+                const { success, vizsgazok } = await _fetch('/api/getvizsgazok');
+
+                if (!success) return;
+
+                for (const vizsgazo of vizsgazok) {
+                    const option = document.createElement('option');
+                    option.value = JSON.stringify(vizsgazo);
+                    option.textContent = vizsgazo.Nev;
+                    select.appendChild(option);
+                }
+            }
+
+            await createSelectionMenu();
+        </script>
+    </body>
+</html>

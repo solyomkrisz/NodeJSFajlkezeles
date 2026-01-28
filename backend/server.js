@@ -69,6 +69,11 @@ router.get('/hatodikFeladat', (request, response) => {
     response.sendFile(path.join(__dirname, '../frontend/html/feladat6.html'));
 });
 
+//?7. feladat:
+router.get('/hetedikFeladat', (request, response) => {
+    response.sendFile(path.join(__dirname, '../frontend/html/feladat7.html'));
+});
+
 //!API endpoints
 app.use('/', router);
 const endpoints = require('./api/api.js');
